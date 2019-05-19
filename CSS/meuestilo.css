@@ -13,9 +13,9 @@ display: flex;"*/
 
 .showcase {
     background-position: center;
-    color: #fff;
-    min-height: 70vh;
-    padding-top: 40vh;
+	background-size: cover;
+	background-image: url("../Images/Anjos da noite - Index.png");
+	min-height: 100vh;
 }
 
 .row > .column {
