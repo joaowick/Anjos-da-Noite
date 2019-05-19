@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>W3.CSS Template</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../CSS/meuestilo.css">
+            <link rel="stylesheet" href="../CSS/w3.css">
+    </head>
+    <style>
+    </style>
+
+    <body>
+        <!-- Desktop -->
+        <!-- Navigation -->
+        <div class="w3-bar w3-white w3-padding-large w3-large w3-top">
+            <a href="../pages/index.html" class="w3-bar-item w3-button w3-hover-white"><img src="../Images/LOGO.jpg" style="width:110px"></a>
+            <a href="../pages/index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">ANJOS DA NOITE</a>
+            <!-- Desktop > Dropdown -->
+            <div class="w3-dropdown-hover w3-mobile w3-hide-small">
+                <button class="w3-button w3-hover-white w3-hover-text-red">PARTICIPE <i class="fa fa-caret-down"></i></button>
+                <div class="w3-dropdown-content w3-bar-block w3-white">
+                    <a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Participar</a>
+                    <a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Seja Voluntário</a>
+                    <a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Doe</a>
+                </div>
+            </div>
+            <a href="../pages/desaparecidos.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">DESAPARECIDOS</a>
+            <a href="../pages/galeria.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">GALERIA</a>
+            <a href="../pages/contato.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">CONTATO</a>
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+        </div>
+
+        <!-- Mobile -->
+        <div id="demo" class="w3-bar-block w3-white w3-center w3-hide w3-hide-large w3-hide-medium">
+            <a href="#" class="w3-bar-item w3-button w3-hover-white w3-hover-text-red">ANJOS DA NOITE</a>
+
+            <!-- Mobile > Dropdown -->
+            <div class="w3-dropdown-hover w3-mobile w3-dropdown-click">
+                <button onclick="dd()" class="w3-button w3-center">PARTICIPE <i class="fa fa-caret-down"></i></button>
+                <div id="Drop" class="w3-dropdown-content w3-bar-block w3-white">
+                    <a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Participar</a>
+                    <a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Seja Voluntário</a>
+                    <a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Doe</a>
+                </div>
+            </div>
+            <a href="#" class="w3-bar-item w3-button w3-hover-white w3-hover-text-red">DESAPARECIDOS</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-white w3-hover-text-red">GALERIA</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-white w3-hover-text-red">CONTATO</a>
+        </div>
+        
+        <!-- Conteudo - Lema -->
+        <section class="w3-container showcase">
+            <div class=" w3-center w3-display-middle">
+                <h1 class="w3-text-shadow w3-animate-opacity w3-text-black">Porque Amar é <br>PRECISO!!!</h1>
+            </div>
+        </section>
+
+        <!-- Conteudo - Sobre Nós -->
+        <section class="">
+            <div class="w3-container w3-blue">
+                <div class="w3-row-padding w3-padding-64
+                w3-container">
+                    <div class="">
+                        <div class="w3-row-padding">
+                            <div class="w3-col m5 img-right">
+                                <img src="../Images/equipe.jpg" class="w3-image">
+                            </div>
+
+                            <div class="w3-col m7">
+                                <div id="what" class="w3-container w3-show">
+                                    <h1>Sobre Nós</h1>
+                                    <p class="">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section - História -->
+        <section>
+            <div class="w3-container w3-orange">
+                <div class="w3-row-padding w3-padding-64" style="overflow: auto">
+                    <div class="w3-col m5">
+                        <img src="../Images/equipe.jpg" class="w3-image">
+                    </div>
+                    <div class="w3-col m7">
+                        <div id="what" class="w3-container w3-show w3-text-white">
+                            <h1>História</h1>
+                            <p class="">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section - Missão -->
+        <section>
+            <div class="w3-container w3-green">
+                <div class="w3-row-padding w3-padding-64">
+                    <div class="w3-col m5 img-right">
+                        <img src="../Images/equipe.jpg" class="w3-image">
+                    </div>
+                    <div class="w3-col m7">
+                        <div id="what" class="w3-container w3-show w3-text-white">
+                            <h1>Missão</h1>
+                            <p class="">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section - Projetos -->
+        <section>
+            <div class="w3-container w3-grey">
+                <div class="w3-row-padding w3-padding-64">
+                    <div class="">
+                        <div id="what" class="w3-container w3-show w3-text-white w3-center">
+                            <h1>Projetos</h1>
+                            <p class="">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section - Blog -->
+        <section>
+            <div class="w3-container w3-red">
+                <div class="w3-row-padding w3-padding-64">
+                    <div>
+                        <div id="what" class="w3-container w3-show w3-text-white">
+                            <h1>Blog</h1>
+                            <!-- Blog - 1 -->
+                            <hr>
+                            <div class="w3-container w3-margin w3-padding-large" >
+                                <div class="w3-left" >
+                                    <h3>TITLE HEADING ONE</h3>
+                                    <h5>Title description, <span class="w3-opacity">May 2, 2016</span></h5>
+                                </div>
+                            </div>
+                            <div class="w3-justify" style="max-width:900px; margin: auto;">
+                                <img src="../Images/photo_2019-05-12_20-42-34.jpg" alt="Three men" style="width:100%" class="w3-padding-16">
+                                <p><strong>More Hats!</strong> I am crazy about hats these days. Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor
+                                magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                                <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+                                <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+                                <p class="w3-clear"></p>
+
+                                <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+                                    <hr>
+                                    <div style="text-align: left !important;">
+                                        <h4>George</h4>
+                                        <span class="w3-opacity">May 3, 2015, 6:32 PM</span>
+                                        <p>Great blog post! Following</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Blog - 2 -->
+                            <hr>
+                            <div class="w3-container w3-margin w3-padding-large" >
+                                <div class="w3-left" >
+                                    <h3>TITLE HEADING TWO</h3>
+                                    <h5>Title description, <span class="w3-opacity">May 2, 2016</span></h5>
+                                </div>
+                            </div>
+                            <div class="w3-justify" style="max-width:900px; margin: auto;">
+                                <img src="../Images/photo_2019-05-12_20-42-49.jpg" alt="Three men" style="width:100%" class="w3-padding-16">
+                                <p><strong>More Hats!</strong> I am crazy about hats these days. Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor
+                                magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                                <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+                                <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+                                <p class="w3-clear"></p>
+
+                                <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+                                    <hr>
+                                    <div style="text-align: left !important;">
+                                        <h4>George</h4>
+                                        <span class="w3-opacity">May 3, 2015, 6:32 PM</span>
+                                        <p>Great blog post! Following</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Blog - 3 -->
+                            <hr>
+                            <div class="w3-container w3-margin w3-padding-large" >
+                                <div class="w3-left" >
+                                    <h3>TITLE HEADING THREE</h3>
+                                    <h5>Title description, <span class="w3-opacity">May 2, 2016</span></h5>
+                                </div>
+                            </div>
+                            <div class="w3-justify" style="max-width:900px; margin: auto;">
+                                <img src="../Images/photo_2019-05-12_20-42-56.jpg" alt="Three men" style="width:100%" class="w3-padding-16">
+                                <p><strong>More Hats!</strong> I am crazy about hats these days. Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor
+                                magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                                <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+                                <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+                                <p class="w3-clear"></p>
+
+                                <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+                                    <hr>
+                                    <div style="text-align: left !important;">
+                                        <h4>George</h4>
+                                        <span class="w3-opacity">May 3, 2015, 6:32 PM</span>
+                                        <p>Great blog post! Following</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Script -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("demo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else { 
+            x.className = x.className.replace(" w3-show", "");
+            }
+        }
+
+        function dd() {
+            var x = document.getElementById("Drop");
+            if (x.className.indexOf("w3-show") == -1) {  
+                x.className += " w3-show";
+            } else { 
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+
+        document.getElementById("myBtn").click();
+        function myFunction(id) {
+            var x = document.getElementById(id);
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else { 
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+
+        function likeFunction(x) {
+            x.style.fontWeight = "bold";
+            x.innerHTML = "✓ Liked";
+        }
+    </script>
+    </body>
+</html>

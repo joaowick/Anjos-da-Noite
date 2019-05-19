@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>W3.CSS Template</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../CSS/meuestilo.css">
+            <link rel="stylesheet" href="../CSS/w3.css">
+    </head>
+    <style>
+        body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+        .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+        .fa-anchor,.fa-coffee {font-size:200px}
+    </style>
+
+    <body>
+        <!-- Desktop -->
+        <div class="w3-top>">
+                <!-- style="align-items: center;
+                display: flex;" -->
+                <div class="w3-bar w3-white w3-padding-large w3-large">
+                <a href="../pages/index.html" class="w3-bar-item w3-button w3-hover-white"><img src="../Images/LOGO.jpg" style="width:110px"></a>
+                    <a href="../pages/index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">ANJOS DA NOITE</a>
+                    <!-- Desktop > Dropdown -->
+                    <div class="w3-dropdown-hover w3-mobile w3-hide-small">
+                        <button class="w3-button w3-hover-white w3-hover-text-red">PARTICIPE <i class="fa fa-caret-down"></i></button>
+                        <div class="w3-dropdown-content w3-bar-block w3-white">
+                            <a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Participar</a>
+                            <a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Seja Voluntário</a>
+                            <a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Doe</a>
+                        </div>
+                    </div>
+                    <a href="../pages/desaparecidos.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">DESAPARECIDOS</a>
+                    <a href="../pages/galeria.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">GALERIA</a>
+                    <a href="../pages/contato.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">CONTATO</a>
+                    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+                </div>
+                <!-- Mobile -->
+                <div id="demo" class="w3-bar-block w3-white w3-center w3-hide w3-hide-large w3-hide-medium">
+                    <a href="#" class="w3-bar-item w3-button w3-hover-white w3-hover-text-red">ANJOS DA NOITE</a>
+                    <!-- Mobile > Dropdown -->
+                    <div class="w3-dropdown-hover w3-mobile w3-dropdown-click">
+                        <button onclick="dd()" class="w3-button w3-center">PARTICIPE <i class="fa fa-caret-down"></i></button>
+                        <div id="Drop" class="w3-dropdown-content w3-bar-block w3-white">
+                            <a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Participar</a>
+                            <a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Seja Voluntário</a>
+                            <a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Doe</a>
+                        </div>
+                    </div>
+                    <a href="#" class="w3-bar-item w3-button w3-hover-white w3-hover-text-red">DESAPARECIDOS</a>
+                    <a href="#" class="w3-bar-item w3-button w3-hover-white w3-hover-text-red">GALERIA</a>
+                    <a href="#" class="w3-bar-item w3-button w3-hover-white w3-hover-text-red">CONTATO</a>
+                </div>
+        </div>
+        
+        <!-- Images used to open the lightbox -->
+        <div class="row w3-container">
+            <div class="column">
+                <img src="../Images/photo_2019-05-12_20-42-34.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+            </div>
+            <div class="column">
+                <img src="../Images/photo_2019-05-12_20-42-49.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+            </div>
+            <div class="column">
+                <img src="../Images/photo_2019-05-12_20-42-53.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+            </div>
+            <div class="column">
+                <img src="../Images/photo_2019-05-12_20-42-56.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+            </div>
+            <div class="column">
+                <img src="../Images/photo_2019-05-12_20-43-00.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+            </div>
+        </div>
+
+        <!-- The Modal/Lightbox -->
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+                <div class="mySlides">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="../Images/photo_2019-05-12_20-42-34.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="../Images/photo_2019-05-12_20-42-49.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="../Images/photo_2019-05-12_20-42-53.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="../Images/photo_2019-05-12_20-42-56.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="../Images/photo_2019-05-12_20-43-00.jpg" style="width:100%">
+                </div>
+
+                <!-- Next/previous controls -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
+
+    <!-- Script -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("demo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else { 
+            x.className = x.className.replace(" w3-show", "");
+            }
+        }
+
+        function dd() {
+            var x = document.getElementById("Drop");
+            if (x.className.indexOf("w3-show") == -1) {  
+                x.className += " w3-show";
+            } else { 
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+
+        // Open the Modal
+        function openModal() {
+            document.getElementById("myModal").style.display = "block";
+        }
+
+        // Close the Modal
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+        }
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("img_demo");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+        }
+    </script>
+    </body>
+</html>
