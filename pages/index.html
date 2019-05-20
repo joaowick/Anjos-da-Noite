@@ -26,8 +26,8 @@
                     <div class="w3-dropdown-hover w3-mobile w3-hide-small">
                         <button class="w3-button w3-hover-white w3-hover-text-red">COMO AJUDAR <i class="fa fa-caret-down"></i></button>
                         <div class="w3-dropdown-content w3-bar-block w3-white">
-                            <a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Seja um voluntário</a>
-                            <a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Faça uma doação</a>
+                            <a href="../pages/part_vol.html" class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Seja um voluntário</a>
+                            <a href="../pages/part_doacao.html" class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Faça uma doação</a>
                         </div>
                     </div>
                     <a href="../pages/desaparecidos.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">DESAPARECIDOS</a>
@@ -42,8 +42,8 @@
                     <div class="w3-dropdown-hover w3-mobile w3-dropdown-click">
                         <button onclick="dd()" class="w3-button w3-center">COMO AJUDAR <i class="fa fa-caret-down"></i></button>
                         <div id="Drop" class="w3-dropdown-content w3-bar-block w3-white">
-                            <a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Seja um voluntário</a>
-                            <a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Faça uma doação</a>
+                            <a href="../pages/part_vol.html" class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Seja um voluntário</a>
+                            <a href="../pages/part_doacao.html" class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Faça uma doação</a>
                         </div>
                     </div>
                     <a href="#" class="w3-bar-item w3-button w3-hover-white w3-hover-text-red">DESAPARECIDOS</a>
@@ -150,44 +150,87 @@
         <section>
             <div class="w3-container w3-red">
                 <div class="w3-row-padding w3-padding-64">
-                    <div>
-                        <div id="what" class="w3-container w3-show w3-text-white">
-                            <h1>Blog</h1>
-                            <!-- Blog - 1 -->
-                            <hr>
-                            <div class="w3-container w3-margin w3-padding-large" >
-                                <div class="w3-left" >
-                                    <h3>TITLE HEADING ONE</h3>
-                                    <h5>Title description, <span class="w3-opacity">May 2, 2016</span></h5>
-                                </div>
+                    <div id="what" class="w3-container w3-show w3-text-white">
+                        <h1>Blog</h1>
+                        <!-- Blog - 1 -->
+                        <hr>
+                        <div class="w3-container w3-margin w3-padding-large" >
+                            <div class="w3-left" >
+                                <h3>TITLE HEADING ONE</h3>
+                                <h5>Title description, <span class="w3-opacity">May 2, 2016</span></h5>
                             </div>
-                            <div class="w3-justify" style="max-width:900px; margin: auto;">
-                                <img src="../Images/photo_2019-05-12_20-42-34.jpg" alt="Three men" style="width:100%" class="w3-padding-16">
-                                <p><strong>More Hats!</strong> I am crazy about hats these days. Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor
-                                magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-                                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                                <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
-                                <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
-                                <p class="w3-clear"></p>
+                        </div>
+                        <div class="w3-justify" style="max-width:900px; margin: auto;">
+                            <img src="../Images/photo_2019-05-12_20-42-34.jpg" alt="Three men" style="width:100%" class="w3-padding-16">
+                            <p><strong>More Hats!</strong> I am crazy about hats these days. Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor
+                            magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                            <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+                            <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+                            <p class="w3-clear"></p>
 
-                                <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
-                                    <hr>
-                                    <div style="text-align: left !important;">
-                                        <h4>George</h4>
-                                        <span class="w3-opacity">May 3, 2015, 6:32 PM</span>
-                                        <p>Great blog post! Following</p>
-                                    </div>
+                            <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+                                <hr>
+                                <div style="text-align: left !important;">
+                                    <h4>George</h4>
+                                    <span class="w3-opacity">May 3, 2015, 6:32 PM</span>
+                                    <p>Great blog post! Following</p>
                                 </div>
                             </div>
+                        </div>
                             
-                        </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <!-- Section - Parceiros -->
+        <section>
+            <div class="w3-orange w3-container">
+                <div class="w3-row-padding w3-padding-64"> 
+                    <div class="w3-container">
+                        <h1 class="w3-text-white">Nossos Parceiros</h1>
+                        <div class="mySlidesss w3-animate-fading">
+                            <div class="column">
+                                <img src="../Images/photo_2019-05-12_20-42-49.jpg" class="hover-shadow">
+                            </div>
+                            <div class="column">
+                                <img src="../Images/photo_2019-05-12_20-42-49.jpg" class="hover-shadow">
+                            </div>
+                            <div class="column">
+                                <img src="../Images/photo_2019-05-12_20-42-49.jpg" class="hover-shadow">
+                            </div>
+                            <div class="column">
+                                <img src="../Images/photo_2019-05-12_20-42-49.jpg" class="hover-shadow">
+                            </div>
+                        </div>
+                        <div class="mySlidesss w3-animate-fading">
+                            <div class="column">
+                                <img src="../Images/photo_2019-05-12_20-42-56.jpg" class="hover-shadow">
+                            </div>
+                            <div class="column">
+                                <img src="../Images/photo_2019-05-12_20-42-56.jpg" class="hover-shadow">
+                            </div>
+                            <div class="column">
+                                <img src="../Images/photo_2019-05-12_20-42-56.jpg" class="hover-shadow">
+                            </div>
+                            <div class="column">
+                                <img src="../Images/photo_2019-05-12_20-42-56.jpg" class="hover-shadow">
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="w3-center w3-blue w3-padding-64  w3-hover-white">
+            <a href="../pages/index.html" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+            <div class="w3-xlarge w3-section">
+            <a href="https://www.facebook.com/onganjosdanoite/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+            </div>
+            <p>Powered by <a href="#" title="W3.CSS" target="_blank" class="w3-hover-text-green">Uninove - Design Gráfico</a></p>
+        </footer>
 
     <!-- Script -->
     <script>
@@ -222,6 +265,21 @@
         function likeFunction(x) {
             x.style.fontWeight = "bold";
             x.innerHTML = "✓ Liked";
+        }
+
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlidesss");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 9000);    
         }
     </script>
     </body>

@@ -15,7 +15,7 @@ display: flex;"*/
     background-position: center;
 	background-size: cover;
 	background-image: url("../Images/backgroundmn.jpg");
-	min-height: 49vh;
+	min-height: 100vh;
 	filter: blur(5px);
 }
 
@@ -37,7 +37,6 @@ display: flex;"*/
 /* Create four equal columns that floats next to eachother */
 .column {
     float: left;
-    width: 25%;
 }
   
 /* The Modal (background) */
@@ -176,4 +175,8 @@ img.hover-shadow {
     flex: 100%;
     max-width: 100%;
   }
+}
+
+.slide-index {
+    float: left;
 }
