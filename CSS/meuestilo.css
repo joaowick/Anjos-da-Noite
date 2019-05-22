@@ -365,4 +365,6 @@ img.hover-shadow {
   color: white;
   transform: rotateY(180deg);
   z-index: 1;
+  height: auto;
+  padding: 5px;
 }
