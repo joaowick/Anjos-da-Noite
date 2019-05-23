@@ -1,129 +1,202 @@
 <!DOCTYPE html>
 <html>
-    <head>
-            <title>Anjos da Noite</title>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-		<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <link rel="stylesheet" href="../CSS/meuestilo.css">
-            <link rel="stylesheet" href="../CSS/w3.css">
-    </head>
-    <style>
-    </style>
 
-    <body>
-  <!-- Desktop -->
-        <!-- Navigation -->
-        <div class="w3-top">
-                <!-- style="align-items: center;
+<head>
+    <title>Anjos da Noite</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../CSS/meuestilo.css">
+    <link rel="stylesheet" href="../CSS/w3.css">
+</head>
+<style>
+    body {
+        font-size: 17px;
+    }
+</style>
+
+<body>
+    <!-- Desktop -->
+    <!-- Navigation -->
+    <div class="w3-top">
+        <!-- style="align-items: center;
                 display: flex;" -->
-                <div class="w3-bar w3-white w3-padding-large w3-large" style="display: flex; align-items: center;">
-                <a href="../pages/index.html" class="w3-bar-item w3-button w3-hover-white"><img src="../Images/LOGO.jpg" style="width:110px"></a>
-                    <a href="../pages/index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">INICIO</a>
-                    <!-- Desktop > Dropdown -->
-                    <div class="w3-dropdown-hover w3-mobile w3-hide-small">
-                        <button class="w3-button w3-hover-white w3-hover-text-red">COMO AJUDAR <i class="fa fa-caret-down"></i></button>
-                        <div class="w3-dropdown-content w3-bar-block w3-white">
-                            <a href="../pages/part_vol.html" class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Seja um voluntário</a>
-                            <a href="../pages/part_doacao.html" class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Faça uma doação</a>
-                        </div>
-                    </div>
-                    <a href="../pages/desaparecidos.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">DESAPARECIDOS</a>
-                    <a href="../pages/galeria.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">GALERIA</a>
-                    <a href="../pages/contato.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">CONTATO</a>
-                    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+        <div class="w3-bar w3-white w3-padding-large w3-large" style="display: flex; align-items: center;">
+            <a href="../pages/index.html" class="w3-bar-item w3-button w3-hover-white"><img src="../Images/LOGO.jpg"
+                    style="width:110px"></a>
+            <a href="../pages/index.html"
+                class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">INICIO</a>
+            <!-- Desktop > Dropdown -->
+            <div class="w3-dropdown-hover w3-mobile w3-hide-small">
+                <button class="w3-button w3-hover-white w3-hover-text-red">COMO AJUDAR <i
+                        class="fa fa-caret-down"></i></button>
+                <div class="w3-dropdown-content w3-bar-block w3-white">
+                    <a href="../pages/part_vol.html"
+                        class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Seja um voluntário</a>
+                    <a href="../pages/part_doacao.html"
+                        class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Faça uma doação</a>
                 </div>
-                <!-- Mobile -->
-                <div id="demo" class="w3-bar-block w3-white w3-center w3-hide w3-hide-large w3-hide-medium">
-                    <a href="#" class="w3-bar-item w3-button w3-hover-white w3-hover-text-red">ANJOS DA NOITE</a>
-                    <!-- Mobile > Dropdown -->
-                    <div class="w3-dropdown-hover w3-mobile w3-dropdown-click">
-                        <button onclick="dd()" class="w3-button w3-center">COMO AJUDAR <i class="fa fa-caret-down"></i></button>
-                        <div id="Drop" class="w3-dropdown-content w3-bar-block w3-white">
-                            <a href="../pages/part_vol.html" class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Seja um voluntário</a>
-                            <a href="../pages/part_doacao.html" class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Faça uma doação</a>
-                        </div>
-                    </div>
-                    <a href="#" class="w3-bar-item w3-button w3-hover-white w3-hover-text-red">DESAPARECIDOS</a>
-                    <a href="#" class="w3-bar-item w3-button w3-hover-white w3-hover-text-red">GALERIA</a>
-                    <a href="#" class="w3-bar-item w3-button w3-hover-white w3-hover-text-red">CONTATO</a>
-                </div>
+            </div>
+            <a href="../pages/desaparecidos.html"
+                class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">DESAPARECIDOS</a>
+            <a href="../pages/galeria.html"
+                class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">GALERIA</a>
+            <a href="../pages/contato.html"
+                class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">CONTATO</a>
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+                onclick="myFunction()">&#9776;</a>
         </div>
-        
-        <!-- Conteudo - Lema -->
-        <div class="w3-container showcase"></div>
-		<div class="w3-mobile">
-			<h1 class="w3-text-shadow w3-jumbo w3-animate-opacity w3-text-white w3-display-middle" style="font-family: 'Lobster', cursive;">Porque Amar é <br>PRECISO!!!</h1>
-		</div>
+        <!-- Mobile -->
+        <div id="demo" class="w3-bar-block w3-white w3-center w3-hide w3-hide-large w3-hide-medium">
+            <a href="#" class="w3-bar-item w3-button w3-hover-white w3-hover-text-red">ANJOS DA NOITE</a>
+            <!-- Mobile > Dropdown -->
+            <div class="w3-dropdown-hover w3-mobile w3-dropdown-click">
+                <button onclick="dd()" class="w3-button w3-center">COMO AJUDAR <i class="fa fa-caret-down"></i></button>
+                <div id="Drop" class="w3-dropdown-content w3-bar-block w3-white">
+                    <a href="../pages/part_vol.html"
+                        class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Seja um voluntário</a>
+                    <a href="../pages/part_doacao.html"
+                        class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Faça uma doação</a>
+                </div>
+            </div>
+            <a href="#" class="w3-bar-item w3-button w3-hover-white w3-hover-text-red">DESAPARECIDOS</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-white w3-hover-text-red">GALERIA</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-white w3-hover-text-red">CONTATO</a>
+        </div>
+    </div>
 
-        <!-- Conteudo - Sobre Nós -->
-        <section class="">
-            <div class="w3-container w3-white">
-                <div class="w3-row-padding w3-padding-64
+    <!-- Conteudo - Lema -->
+    <!-- <div id="grad1" class="w3-container"></div> -->
+    <div class="w3-container showcase"></div>
+    <div class="w3-mobile">
+        <h1 class="w3-text-shadow w3-jumbo w3-animate-opacity w3-text-white w3-display-middle"
+            style="font-family: 'Lobster', cursive;">Porque Amar é <br>PRECISO!!!</h1>
+    </div>
+
+    <!-- Conteudo - Sobre Nós -->
+    <section class="">
+        <div class="w3-container w3-white">
+            <div class="w3-row-padding w3-padding-64
                 w3-container">
-                    <div class="">
-                        <div class="w3-row-padding">
+                <div class="">
+                    <div class="w3-row-padding">
 
-                            <div class="w3-col">
-                                <div id="what" class="w3-container w3-show">
-                                    <h1>Sobre Nós</h1>
-                                    <p class="">Fundado por Kaká Ferreira e José Amato, o Núcleo Assistencial Anjos da Noite realiza o trabalho desde 22 de agosto de 1989. É composto por pessoas de todas as idades, de várias denominações religiosas que voluntariamente doam, além do seu tempo, alimentos, roupas, agasalhos, calçados, cobertores e principalmente amor. Uma simples refeição, um agasalho e uma palavra amiga são os ferramentas fundamentais para possibilitar o resgate da autoestima objetivando a sua reintegração social.</p>
-									<p>“Sempre teremos algo a oferecer e a receber”</p>
-									<p>A carência dos recursos materiais das pessoas em situação de rua não as tornam menos cidadãos. São eles que devem ter prioridade no senso de fraternidade que propicia momentos de reflexão sobre os valores da vida, hoje tão banalizada. Portanto, ser um Anjo da Noite nada mais é do que agir na direção da solidariedade para a formação de um mundo mais justo e feliz, razão pela qual o Grupo Anjos da Noite vivencia, entre outras, a seguinte premissa: “Todos os Problemas são Problemas de Todos”.</p>
-                                </div>
+                        <div class="w3-col">
+                            <div id="what" class="w3-container w3-show">
+                                <h1 class="w3-center">SOBRE NÓS</h1>
+                                <p class="">Fundado por Kaká Ferreira e José Amato, o Núcleo Assistencial Anjos da Noite
+                                    realiza o trabalho desde 22 de agosto de 1989. É composto por pessoas de todas as
+                                    idades, de várias denominações religiosas que voluntariamente doam, além do seu
+                                    tempo, alimentos, roupas, agasalhos, calçados, cobertores e principalmente amor. Uma
+                                    simples refeição, um agasalho e uma palavra amiga são os ferramentas fundamentais
+                                    para possibilitar o resgate da autoestima objetivando a sua reintegração social.</p>
+                                <blockquote class="w3-center">“Sempre teremos algo a oferecer e a receber”</blockquote>
+                                <p>A carência dos recursos materiais das pessoas em situação de rua não as tornam menos
+                                    cidadãos. São eles que devem ter prioridade no senso de fraternidade que propicia
+                                    momentos de reflexão sobre os valores da vida, hoje tão banalizada. Portanto, ser um
+                                    Anjo da Noite nada mais é do que agir na direção da solidariedade para a formação de
+                                    um mundo mais justo e feliz, razão pela qual o Grupo Anjos da Noite vivencia, entre
+                                    outras, a seguinte premissa: “Todos os Problemas são Problemas de Todos”.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-       <!-- Section - Missão -->
-        <section>
-            <div class="w3-container w3-blue">
-                <div class="w3-row-padding w3-padding-64">
-                    <div class="w3-col">
-                        <div id="what" class="w3-container w3-show w3-center">
-                            <h1>Missão</h1>
-                            <p class="">Trabalhar pelo resgate da autoestima das pessoas em situação de rua, a fim de possibilitar a sua reintegração social.</p>
-                        </div>
+    <!-- Section - Missão -->
+    <section>
+        <div class="w3-container w3-blue">
+            <div class="w3-row-padding w3-padding-64">
+                <div class="w3-col">
+                    <div id="what" class="w3-container w3-show w3-center">
+                        <h1>MISSÃO</h1>
+                        <p class="">Trabalhar pelo resgate da autoestima das pessoas em situação de rua, a fim de
+                            possibilitar a sua reintegração social.</p>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Section - História -->
-        <section>
-            <div class="w3-container w3-center">
-                <div class="w3-row-padding w3-padding-64">
-                    <div class="w3-col">
-                        <div id="what" class="w3-container w3-show">
-                            <h1>História</h1>
-                            <p class="">Conheça mais sobre nossa noite.</p>
-                        </div>
-                        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button">TESTE</button>
-                        <div id="id01" class="w3-modal">
-                            <div class="w3-modal-content">
-                              <header class="w3-container w3-teal"> 
-                                <span onclick="document.getElementById('id01').style.display='none'" 
-                                class="w3-button w3-display-topright">&times;</span>
-                                <h2 class="w3-left">História</h2>
-                              </header>
-                              <div class="w3-container w3-justify modal-parceiro">
+    <!-- Section - História -->
+    <section>
+        <div class="w3-container w3-center">
+            <div class="w3-row-padding w3-padding-64">
+                <div class="w3-col">
+                    <div id="what" class="w3-container w3-show">
+                        <h1>HISTÓRIA</h1>
+                        <p class="">Conheça mais sobre nossa noite.</p>
+                    </div>
+                    <button onclick="document.getElementById('id01').style.display='block'"
+                        class="w3-button">TESTE</button>
+                    <div id="id01" class="w3-modal">
+                        <div class="w3-modal-content">
+                            <header class="w3-container w3-teal">
+                                <span onclick="document.getElementById('id01').style.display='none'"
+                                    class="w3-button w3-display-topright">&times;</span>
+                                <h2 class="w3-left">HISTÓRIA</h2>
+                            </header>
+                            <div class="w3-container w3-justify modal-parceiro">
                                 <p>
-                                    Numa noite muito fria de garoa, com temperatura por volta de 4ºC, e eu em meu carro com ar condicionado ligado no quente, pois mesmo com o carro todo fechado, estava realmente muito frio e ao parar no semáforo da Rua Amaral Gurgel,  fui abordado por um senhor de aproximadamente 60 anos, que vestia apenas uma camiseta rota e uma bermuda. Fiquei chocado pois fazia muito frio. Então resolvi parar o carro e ajudá-lo. Depois de trocar a roupa molhada, incluindo sapatos e um sobretudo, esse senhor me olhou fixamente e disse em tom solene:
+                                    Numa noite muito fria de garoa, com temperatura por volta de 4ºC, e eu em meu carro
+                                    com ar condicionado ligado no quente, pois mesmo com o carro todo fechado, estava
+                                    realmente muito frio e ao parar no semáforo da Rua Amaral Gurgel, fui abordado por
+                                    um senhor de aproximadamente 60 anos, que vestia apenas uma camiseta rota e uma
+                                    bermuda. Fiquei chocado pois fazia muito frio. Então resolvi parar o carro e
+                                    ajudá-lo. Depois de trocar a roupa molhada, incluindo sapatos e um sobretudo, esse
+                                    senhor me olhou fixamente e disse em tom solene:
                                     "VOCÊ É UM ANJO DA NOITE”.
-                                    Discordei, mas agradeci o elogio. Continuando minha trajetória para casa, aquela frase ecoou em minha mente durante todo trajeto, ficando o semblante de gratidão e alegria daquele senhor gravado em minha mente. Ao chegar em casa, adormeci e sonhei que estava no mesmo local onde doei as roupas e vi-me dando comida e roupas a muitas pessoas. Aquele senhor me olhava e continuava dizendo: “Você é um Anjo da Noite”. Acordei sem esquecer o acontecimento durante o sono. Resolvi chamar alguns amigos e sair às ruas para distribuir alimentos. Fizemos uma sopa muito suculenta para aproximadamente 100 pessoas e fomos na Rua Amaral Gurgel para distribuí-lo. Nunca mais paramos pois foi tão importante e gratificante que resolvemos adotar o nome sugerido pelo Ancião citado. Passamos a arrecadar com nossos amigos, familiares e vizinhos, alimentos, roupas, calçados, agasalhos e cobertores para que dessa forma pudéssemos diminuir, pelo menos um pouco, o sofrimento dos nossos irmãos e famílias carentes que vivem e dormem nas ruas, nas noites frias de nossa cidade. Fria não só de temperatura, mas de calor humano que teima em se dissipar no agitado mundo das metrópoles.
+                                    Discordei, mas agradeci o elogio. Continuando minha trajetória para casa, aquela
+                                    frase ecoou em minha mente durante todo trajeto, ficando o semblante de gratidão e
+                                    alegria daquele senhor gravado em minha mente. Ao chegar em casa, adormeci e sonhei
+                                    que estava no mesmo local onde doei as roupas e vi-me dando comida e roupas a muitas
+                                    pessoas. Aquele senhor me olhava e continuava dizendo: “Você é um Anjo da Noite”.
+                                    Acordei sem esquecer o acontecimento durante o sono. Resolvi chamar alguns amigos e
+                                    sair às ruas para distribuir alimentos. Fizemos uma sopa muito suculenta para
+                                    aproximadamente 100 pessoas e fomos na Rua Amaral Gurgel para distribuí-lo. Nunca
+                                    mais paramos pois foi tão importante e gratificante que resolvemos adotar o nome
+                                    sugerido pelo Ancião citado. Passamos a arrecadar com nossos amigos, familiares e
+                                    vizinhos, alimentos, roupas, calçados, agasalhos e cobertores para que dessa forma
+                                    pudéssemos diminuir, pelo menos um pouco, o sofrimento dos nossos irmãos e famílias
+                                    carentes que vivem e dormem nas ruas, nas noites frias de nossa cidade. Fria não só
+                                    de temperatura, mas de calor humano que teima em se dissipar no agitado mundo das
+                                    metrópoles.
 
-                                    Mas esses desafortunados não precisam somente de comida para o sustento do corpo. É necessário alimentá-los na alma. Não precisam somente de água para lhes matar a sede, pois têm sede de vida. Não somente de um cobertor para cobri-los nas noites frias, pois buscam abrigo no respeito e no carinho. Não só necessitam do relacionamento social, pois carecem da humana troca sadia. Não apenas serem ouvidos, é preciso entendê-los. Não só lhes falar ou cumprimentar é importante, e de bom grado incentivar e esperançá-los, é necessário fazê-los sentir a vida, e que vale a pena viver.
+                                    Mas esses desafortunados não precisam somente de comida para o sustento do corpo. É
+                                    necessário alimentá-los na alma. Não precisam somente de água para lhes matar a
+                                    sede, pois têm sede de vida. Não somente de um cobertor para cobri-los nas noites
+                                    frias, pois buscam abrigo no respeito e no carinho. Não só necessitam do
+                                    relacionamento social, pois carecem da humana troca sadia. Não apenas serem ouvidos,
+                                    é preciso entendê-los. Não só lhes falar ou cumprimentar é importante, e de bom
+                                    grado incentivar e esperançá-los, é necessário fazê-los sentir a vida, e que vale a
+                                    pena viver.
 
-                                    Talvez seja errado falar “esses desafortunados”. Talvez fosse mais justo dizer “nós, desafortunados”. Isso mesmo, nós! Afinal do que são feitas as cidades? São feitas de pessoas, e o conjunto de pessoas convivendo em um espaço comum formam uma aglomerado que é conhecido como metrópole, todo o resto serve de infraestrutura para realizar e melhorar a convivência entre seus integrantes, ou seja, dinheiro, casas, lojas, ruas, avenidas, praças, parques, carros e todo o resto que compõe a paisagem urbana servem apenas para amenizar os atritos do relacionamento humano, portanto, nós somados a tudo isso formamos um único elemento, que se movimenta o tempo, o que caracterizamos como “vida”.
+                                    Talvez seja errado falar “esses desafortunados”. Talvez fosse mais justo dizer “nós,
+                                    desafortunados”. Isso mesmo, nós! Afinal do que são feitas as cidades? São feitas de
+                                    pessoas, e o conjunto de pessoas convivendo em um espaço comum formam uma aglomerado
+                                    que é conhecido como metrópole, todo o resto serve de infraestrutura para realizar e
+                                    melhorar a convivência entre seus integrantes, ou seja, dinheiro, casas, lojas,
+                                    ruas, avenidas, praças, parques, carros e todo o resto que compõe a paisagem urbana
+                                    servem apenas para amenizar os atritos do relacionamento humano, portanto, nós
+                                    somados a tudo isso formamos um único elemento, que se movimenta o tempo, o que
+                                    caracterizamos como “vida”.
 
-                                    Mas parece que é feito o contrário: ao invés de melhorar a convivência humana, estamos nos afastando uns dos outros; e estamos tão envolvidos nesse ritmo frenético que mal percebemos o que estamos fazendo, mal percebemos que estamos perdendo a noção do que significa a palavra cidadania, que muito além de uma palavra, é um conjunto de ações feitas por um cidadão, que obviamente vive nas cidades, feita de seres humanos, é claro; portanto, cidadania é a prática da humanidade.
+                                    Mas parece que é feito o contrário: ao invés de melhorar a convivência humana,
+                                    estamos nos afastando uns dos outros; e estamos tão envolvidos nesse ritmo frenético
+                                    que mal percebemos o que estamos fazendo, mal percebemos que estamos perdendo a
+                                    noção do que significa a palavra cidadania, que muito além de uma palavra, é um
+                                    conjunto de ações feitas por um cidadão, que obviamente vive nas cidades, feita de
+                                    seres humanos, é claro; portanto, cidadania é a prática da humanidade.
 
-                                    O resultado dessa “não prática” é o que muitos chamam de refugo social, carentes, desfavorecidos, excluídos, marginalizados… Nós não os vemos assim. Chamamos de pessoas em dificuldade precisando de ajuda. E as ruas, um lugar não muito bom para se morar. Portanto, se não praticamos a cidadania, somos realmente dignos do título de cidadãos?
+                                    O resultado dessa “não prática” é o que muitos chamam de refugo social, carentes,
+                                    desfavorecidos, excluídos, marginalizados… Nós não os vemos assim. Chamamos de
+                                    pessoas em dificuldade precisando de ajuda. E as ruas, um lugar não muito bom para
+                                    se morar. Portanto, se não praticamos a cidadania, somos realmente dignos do título
+                                    de cidadãos?
 
                                     Quem é que está marginalizado?
                                     Quem é o carente?
@@ -134,16 +207,16 @@
                                     Kaká Ferreira
                                     Presidente
                                 </p>
-                              </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-      
-	  <!-- Section - Trajetória -->
-        <!-- <section>
+        </div>
+    </section>
+
+    <!-- Section - Trajetória -->
+    <!-- <section>
             <div class="w3-container w3-yellow">
                 <div class="w3-row-padding w3-padding-64">
                     <div class="w3-col">
@@ -176,29 +249,35 @@
             </div>
         </section> -->
 
-        <!-- Section - Projetos -->
-        <section>
-            <div class="w3-container">
-                <div class="w3-row-padding w3-padding-64">
-                    <div id="what" class="w3-container w3-show w3-justify">
-                        <h1 class="w3-center">Projetos</h1>
-                        <p class="">
-                        <p>Espaço Avançado Anjos da Noite. A criação do Espaço Avançado é um projeto que os Anjos da Noite estão buscando parceiros que possam financiar pontualmente e mensalmente, apoiar e doar seu trabalho e tempo. A casa será preparada para prestar atendimento de apoio ao morador em situação de rua. Será um local onde essas pessoas poderão ir e receber efetiva assistência social. Essa ação social consiste em prestar alguns serviços da qual o morador tem grande necessidade, assim como: 
-                        <p>Retirada de novos documentos;</p>
-                        <p>Apoio na qualificação profissional;</p>
-                        <p>Apoio na recolocação profissional;</p>
-                        <p>Assistência social, psicológica e médica;</p>
-                        <p>Refeição e higienização no local;</p>
-                        <p>Direcionamento para repouso em albergues associados à casa, entre outros.</p>
-                        Ajude-nos e junte-se a nós. Queremos muito que essa a ideia saia do papel e torne-se realidade.
+    <!-- Section - Projetos -->
+    <section>
+        <div class="w3-container w3-blue">
+            <div class="w3-row-padding w3-padding-64">
+                <div id="what" class="w3-container w3-show w3-justify">
+                    <h1 class="w3-center">PROJETOS</h1>
+                    <p class="">
+                        <p>Espaço Avançado Anjos da Noite. A criação do Espaço Avançado é um projeto que os Anjos da
+                            Noite estão buscando parceiros que possam financiar pontualmente e mensalmente, apoiar e
+                            doar seu trabalho e tempo. A casa será preparada para prestar atendimento de apoio ao
+                            morador em situação de rua. Será um local onde essas pessoas poderão ir e receber efetiva
+                            assistência social. Essa ação social consiste em prestar alguns serviços da qual o morador
+                            tem grande necessidade, assim como:
+                            <p>Retirada de novos documentos;</p>
+                            <p>Apoio na qualificação profissional;</p>
+                            <p>Apoio na recolocação profissional;</p>
+                            <p>Assistência social, psicológica e médica;</p>
+                            <p>Refeição e higienização no local;</p>
+                            <p>Direcionamento para repouso em albergues associados à casa, entre outros.</p>
+                            Ajude-nos e junte-se a nós. Queremos muito que essa a ideia saia do papel e torne-se
+                            realidade.
                         </p>
-                    </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Section - Blog -->
-        <!-- <section>
+    <!-- Section - Blog -->
+    <!-- <section>
             <div class="w3-container w3-red">
                 <div class="w3-row-padding w3-padding-64">
                     <div id="what" class="w3-container w3-show w3-text-white">
@@ -234,53 +313,56 @@
             </div>
         </section> -->
 
-        <!-- Section - Parceiros -->
-        <section>
-            <div class="w3-orange w3-container">
-                <div class="w3-row-padding w3-padding-64"> 
-                    <div class="w3-container">
-                        <h1 class="w3-text-white">Nossos Parceiros</h1>
-                        <div class="mySlidesss w3-animate-fading">
-                            <div class="column">
-                                <img src="../Images/photo_2019-05-12_20-42-49.jpg" class="hover-shadow">
-                            </div>
-                            <div class="column">
-                                <img src="../Images/photo_2019-05-12_20-42-49.jpg" class="hover-shadow">
-                            </div>
-                            <div class="column">
-                                <img src="../Images/photo_2019-05-12_20-42-49.jpg" class="hover-shadow">
-                            </div>
-                            <div class="column">
-                                <img src="../Images/photo_2019-05-12_20-42-49.jpg" class="hover-shadow">
-                            </div>
+    <!-- Section - Parceiros -->
+    <section>
+        <div class="w3-white w3-container">
+            <div class="w3-row-padding w3-padding-64">
+                <div class="w3-container">
+                    <h1 class="">NOSSOS PARCEIROS</h1>
+                    <div class="mySlidesss w3-animate-fading">
+                        <div class="column">
+                            <img src="../Images/Parceiras/46 Industria Gráfica.png" class="hover-shadow">
                         </div>
-                        <div class="mySlidesss w3-animate-fading">
-                            <div class="column">
-                                <img src="../Images/photo_2019-05-12_20-42-56.jpg" class="hover-shadow">
-                            </div>
-                            <div class="column">
-                                <img src="../Images/photo_2019-05-12_20-42-56.jpg" class="hover-shadow">
-                            </div>
-                            <div class="column">
-                                <img src="../Images/photo_2019-05-12_20-42-56.jpg" class="hover-shadow">
-                            </div>
-                            <div class="column">
-                                <img src="../Images/photo_2019-05-12_20-42-56.jpg" class="hover-shadow">
-                            </div>
+                        <div class="column">
+                            <img src="../Images/Parceiras/Afconsultoria.png" class="hover-shadow">
+                        </div>
+                        <div class="column">
+                            <img src="../Images/Parceiras/DHL.png" class="hover-shadow">
+                        </div>
+                        <div class="column">
+                            <img src="../Images/Parceiras/EM&T.png" class="hover-shadow">
+                        </div>
+                    </div>
+                    <div class="mySlidesss w3-animate-fading">
+                        <div class="column">
+                            <img src="../Images/photo_2019-05-12_20-42-56.jpg" class="hover-shadow">
+                        </div>
+                        <div class="column">
+                            <img src="../Images/photo_2019-05-12_20-42-56.jpg" class="hover-shadow">
+                        </div>
+                        <div class="column">
+                            <img src="../Images/photo_2019-05-12_20-42-56.jpg" class="hover-shadow">
+                        </div>
+                        <div class="column">
+                            <img src="../Images/photo_2019-05-12_20-42-56.jpg" class="hover-shadow">
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Footer -->
-        <footer class="w3-center w3-blue w3-padding-64  w3-hover-white">
-            <a href="../pages/index.html" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-            <div class="w3-xlarge w3-section">
-            <a href="https://www.facebook.com/onganjosdanoite/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-            </div>
-            <p>Powered by <a href="#" title="W3.CSS" target="_blank" class="w3-hover-text-green">Uninove - Design Gráfico</a></p>
-        </footer>
+    <!-- Footer -->
+    <footer class="w3-center w3-blue w3-padding-64  w3-hover-white">
+        <a href="../pages/index.html" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To
+            the top</a>
+        <div class="w3-xlarge w3-section">
+            <a href="https://www.facebook.com/onganjosdanoite/"><i
+                    class="fa fa-facebook-official w3-hover-opacity"></i></a>
+        </div>
+        <p>Powered by <a href="#" title="W3.CSS" target="_blank" class="w3-hover-text-green">Uninove - Design
+                Gráfico</a></p>
+    </footer>
 
     <!-- Script -->
     <script>
@@ -288,16 +370,16 @@
             var x = document.getElementById("demo");
             if (x.className.indexOf("w3-show") == -1) {
                 x.className += " w3-show";
-            } else { 
-            x.className = x.className.replace(" w3-show", "");
+            } else {
+                x.className = x.className.replace(" w3-show", "");
             }
         }
 
         function dd() {
             var x = document.getElementById("Drop");
-            if (x.className.indexOf("w3-show") == -1) {  
+            if (x.className.indexOf("w3-show") == -1) {
                 x.className += " w3-show";
-            } else { 
+            } else {
                 x.className = x.className.replace(" w3-show", "");
             }
         }
@@ -307,7 +389,7 @@
             var x = document.getElementById(id);
             if (x.className.indexOf("w3-show") == -1) {
                 x.className += " w3-show";
-            } else { 
+            } else {
                 x.className = x.className.replace(" w3-show", "");
             }
         }
@@ -323,13 +405,14 @@
             var i;
             var x = document.getElementsByClassName("mySlidesss");
             for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";  
+                x[i].style.display = "none";
             }
             myIndex++;
-            if (myIndex > x.length) {myIndex = 1}    
-            x[myIndex-1].style.display = "block";  
-            setTimeout(carousel, 9000);    
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 9000);
         }
     </script>
-    </body>
+</body>
+
 </html>
