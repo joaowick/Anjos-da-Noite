@@ -1,169 +1,188 @@
 <!DOCTYPE html>
 <html>
-     <head>
-            <title>Anjos da Noite</title>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-		<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <link rel="stylesheet" href="../CSS/meuestilo.css">
-            <link rel="stylesheet" href="../CSS/w3.css">
-    </head>
 
-    <body>
-        <!-- Desktop Navigation -->
-        <div class="w3-top">
-            <div class="w3-bar w3-white w3-padding-large w3-large" style="display: flex; align-items: center;">
-            <a href="../pages/index.html" class="w3-bar-item w3-button w3-hover-white"><img src="../Images/LOGO.jpg" style="width:110px"></a>
-                <a href="../pages/index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">INICIO</a>
-                <!-- Desktop > Dropdown -->
-                <div class="w3-dropdown-hover w3-mobile w3-hide-small">
-                    <button class="w3-button w3-hover-white w3-hover-text-red">COMO AJUDAR <i class="fa fa-caret-down"></i></button>
-                    <div class="w3-dropdown-content w3-bar-block w3-white">
-                        <a href="../pages/part_vol.html" class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Seja um voluntário</a>
-                        <a href="../pages/part_doacao.html" class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Faça uma doação</a>
-                    </div>
-                </div>
-                <a href="../pages/desaparecidos.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">DESAPARECIDOS</a>
-                <a href="../pages/galeria.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">GALERIA</a>
-                <a href="../pages/contato.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">CONTATO</a>
-                <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
-            </div>
-            <!-- Mobile -->
-            <div id="demo" class="w3-bar-block w3-white w3-center w3-hide w3-hide-large w3-hide-medium">
-                <a href="#" class="w3-bar-item w3-button w3-hover-white w3-hover-text-red">ANJOS DA NOITE</a>
-                <!-- Mobile > Dropdown -->
-                <div class="w3-dropdown-hover w3-mobile w3-dropdown-click">
-                    <button onclick="dd()" class="w3-button w3-center">COMO AJUDAR <i class="fa fa-caret-down"></i></button>
-                    <div id="Drop" class="w3-dropdown-content w3-bar-block w3-white">
-                        <a href="../pages/part_vol.html" class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Seja um voluntário</a>
-                        <a href="../pages/part_doacao.html" class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Faça uma doação</a>
-                    </div>
-                </div>
-                <a href="#" class="w3-bar-item w3-button w3-hover-white w3-hover-text-red">DESAPARECIDOS</a>
-                <a href="#" class="w3-bar-item w3-button w3-hover-white w3-hover-text-red">GALERIA</a>
-                <a href="#" class="w3-bar-item w3-button w3-hover-white w3-hover-text-red">CONTATO</a>
-            </div>
-    </div>
+<head>
+  <title>Anjos da Noite</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../CSS/meuestilo.css">
+  <link rel="stylesheet" href="../CSS/w3.css">
+</head>
 
-    <!-- Section - Desaparecidos -->
-    <section>
-        <div class="w3-container">
-            <div class="w3-row-padding w3-padding-64">
-                <div class="w3-container">
-                    <h1 class="w3-center">Desaparecidos</h1>
-                    <div class="row">
-                    <div class="flip-card column">
-                        <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                            <img src="../Images/avatar_woman.png" alt="Avatar" style="width:300px;height:300px;">
-                          </div>
-                          <div class="flip-card-back">
-                            <h1>Karlakiel da Fonseca</h1> <br>
-                            <div style="text-align: left">
-                                <strong>Contato: </strong> Iracele Delgado Filipim <br>
-                                <strong>Email: </strong> iraceledelgado@ig.com.br <br>
-                                <strong>Cidade-UF: </strong> São Paulo - SP <br>
-                                <strong>Telefone: </strong> (11) 2722-6888 <br><br>
-                                <strong>Mensagem: </strong> <p class="w3-justify">Estou a procura de um senhor chamado Karlakiel da Fonseca, pois há 15 dias atrás foi visto na Barra Funda. Infelizmente não temos nenhuma foto dele pois ele levou todas antes de sair de casa. Se encontrarem alguém com esse nome, por favor, entre em contato pois já o filho dele quer muito ver ele.</p>
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-                    <div class="flip-card column">
-                        <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                            <img src="../Images/avatar_woman.png" alt="Avatar" style="width:300px;height:300px;">
-                          </div>
-                          <div class="flip-card-back">
-                            <h1>Karlakiel da Fonseca</h1> <br>
-                            <div style="text-align: left">
-                                <strong>Contato: </strong> Iracele Delgado Filipim <br>
-                                <strong>Email: </strong> iraceledelgado@ig.com.br <br>
-                                <strong>Cidade-UF: </strong> São Paulo - SP <br>
-                                <strong>Telefone: </strong> (11) 2722-6888 <br><br>
-                                <strong>Mensagem: </strong> <p class="w3-justify">Estou a procura de um senhor chamado Karlakiel da Fonseca, pois há 15 dias atrás foi visto na Barra Funda. Infelizmente não temos nenhuma foto dele pois ele levou todas antes de sair de casa. Se encontrarem alguém com esse nome, por favor, entre em contato pois já o filho dele quer muito ver ele.</p>
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-                    <div class="flip-card column">
-                        <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                            <img src="../Images/avatar_woman.png" alt="Avatar" style="width:300px;height:300px;">
-                          </div>
-                          <div class="flip-card-back">
-                            <h1>Karlakiel da Fonseca</h1> <br>
-                            <div style="text-align: left">
-                                <strong>Contato: </strong> Iracele Delgado Filipim <br>
-                                <strong>Email: </strong> iraceledelgado@ig.com.br <br>
-                                <strong>Cidade-UF: </strong> São Paulo - SP <br>
-                                <strong>Telefone: </strong> (11) 2722-6888 <br><br>
-                                <strong>Mensagem: </strong> <p class="w3-justify">Estou a procura de um senhor chamado Karlakiel da Fonseca, pois há 15 dias atrás foi visto na Barra Funda. Infelizmente não temos nenhuma foto dele pois ele levou todas antes de sair de casa. Se encontrarem alguém com esse nome, por favor, entre em contato pois já o filho dele quer muito ver ele.</p>
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-                    <div class="flip-card column">
-                        <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                            <img src="../Images/avatar_woman.png" alt="Avatar" style="width:300px;height:300px;">
-                          </div>
-                          <div class="flip-card-back">
-                            <h1>Karlakiel da Fonseca</h1> <br>
-                            <div style="text-align: left">
-                                <strong>Contato: </strong> Iracele Delgado Filipim <br>
-                                <strong>Email: </strong> iraceledelgado@ig.com.br <br>
-                                <strong>Cidade-UF: </strong> São Paulo - SP <br>
-                                <strong>Telefone: </strong> (11) 2722-6888 <br><br>
-                                <strong>Mensagem: </strong> <p class="w3-justify">Estou a procura de um senhor chamado Karlakiel da Fonseca, pois há 15 dias atrás foi visto na Barra Funda. Infelizmente não temos nenhuma foto dele pois ele levou todas antes de sair de casa. Se encontrarem alguém com esse nome, por favor, entre em contato pois já o filho dele quer muito ver ele.</p>
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-                    <div class="flip-card column">
-                        <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                            <img src="../Images/avatar_woman.png" alt="Avatar" style="width:300px;height:300px;">
-                          </div>
-                          <div class="flip-card-back">
-                            <h1>Karlakiel da Fonseca</h1> <br>
-                            <div style="text-align: left">
-                                <strong>Contato: </strong> Iracele Delgado Filipim <br>
-                                <strong>Email: </strong> iraceledelgado@ig.com.br <br>
-                                <strong>Cidade-UF: </strong> São Paulo - SP <br>
-                                <strong>Telefone: </strong> (11) 2722-6888 <br><br>
-                                <strong>Mensagem: </strong> <p class="w3-justify">Estou a procura de um senhor chamado Karlakiel da Fonseca, pois há 15 dias atrás foi visto na Barra Funda. Infelizmente não temos nenhuma foto dele pois ele levou todas antes de sair de casa. Se encontrarem alguém com esse nome, por favor, entre em contato pois já o filho dele quer muito ver ele.</p>
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </div>
+<body>
+  <!-- Desktop Navigation -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-padding-large w3-large" style="display: flex; align-items: center;">
+      <a href="../pages/index.html" class="w3-bar-item w3-button w3-hover-white"><img src="../Images/LOGO.jpg"
+          style="width:200px"></a>
+      <div style="margin-left: auto">
+        <a href="../pages/index.html"
+          class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">INICIO</a>
+        <!-- Desktop Dropdown -->
+        <div class="w3-dropdown-hover w3-mobile w3-hide-small">
+          <button class="w3-button w3-hover-white w3-hover-text-red">COMO AJUDAR <i
+              class="fa fa-caret-down"></i></button>
+          <div class="w3-dropdown-content w3-bar-block w3-white">
+            <a href="../pages/part_vol.html"
+              class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Seja um
+              voluntário</a>
+            <a href="../pages/part_doacao.html"
+              class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Faça uma doação</a>
+          </div>
         </div>
-    </section>
+        <a href="../pages/desaparecidos.html"
+          class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">DESAPARECIDOS</a>
+        <a href="../pages/galeria.html"
+          class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">GALERIA</a>
+        <a href="../pages/contato.html"
+          class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">CONTATO</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+          onclick="myFunction()">&#9776;</a>
+      </div>
+    </div>
+  </div>
 
-    <!-- Script -->
-    <script>
-        function myFunction() {
-            var x = document.getElementById("demo");
-            if (x.className.indexOf("w3-show") == -1) {
-                x.className += " w3-show";
-            } else { 
-            x.className = x.className.replace(" w3-show", "");
-            }
-        }
+  <!-- Section - Desaparecidos -->
+  <section>
+    <div class="w3-container">
+      <div class="w3-row-padding w3-padding-64">
+        <div class="w3-container">
+          <h1 class="w3-center">Desaparecidos</h1>
+          <div class="row">
+            <div class="flip-card column">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="../Images/avatar_woman.png" alt="Avatar" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                  <h1>Karlakiel da Fonseca</h1> <br>
+                  <div style="text-align: left">
+                    <strong>Contato: </strong> Iracele Delgado Filipim <br>
+                    <strong>Email: </strong> iraceledelgado@ig.com.br <br>
+                    <strong>Cidade-UF: </strong> São Paulo - SP <br>
+                    <strong>Telefone: </strong> (11) 2722-6888 <br><br>
+                    <strong>Mensagem: </strong>
+                    <p class="w3-justify">Estou a procura de um senhor chamado Karlakiel da Fonseca, pois há 15 dias
+                      atrás foi visto na Barra Funda. Infelizmente não temos nenhuma foto dele pois ele levou todas
+                      antes de sair de casa. Se encontrarem alguém com esse nome, por favor, entre em contato pois já o
+                      filho dele quer muito ver ele.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flip-card column">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="../Images/avatar_woman.png" alt="Avatar" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                  <h1>Karlakiel da Fonseca</h1> <br>
+                  <div style="text-align: left">
+                    <strong>Contato: </strong> Iracele Delgado Filipim <br>
+                    <strong>Email: </strong> iraceledelgado@ig.com.br <br>
+                    <strong>Cidade-UF: </strong> São Paulo - SP <br>
+                    <strong>Telefone: </strong> (11) 2722-6888 <br><br>
+                    <strong>Mensagem: </strong>
+                    <p class="w3-justify">Estou a procura de um senhor chamado Karlakiel da Fonseca, pois há 15 dias
+                      atrás foi visto na Barra Funda. Infelizmente não temos nenhuma foto dele pois ele levou todas
+                      antes de sair de casa. Se encontrarem alguém com esse nome, por favor, entre em contato pois já o
+                      filho dele quer muito ver ele.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flip-card column">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="../Images/avatar_woman.png" alt="Avatar" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                  <h1>Karlakiel da Fonseca</h1> <br>
+                  <div style="text-align: left">
+                    <strong>Contato: </strong> Iracele Delgado Filipim <br>
+                    <strong>Email: </strong> iraceledelgado@ig.com.br <br>
+                    <strong>Cidade-UF: </strong> São Paulo - SP <br>
+                    <strong>Telefone: </strong> (11) 2722-6888 <br><br>
+                    <strong>Mensagem: </strong>
+                    <p class="w3-justify">Estou a procura de um senhor chamado Karlakiel da Fonseca, pois há 15 dias
+                      atrás foi visto na Barra Funda. Infelizmente não temos nenhuma foto dele pois ele levou todas
+                      antes de sair de casa. Se encontrarem alguém com esse nome, por favor, entre em contato pois já o
+                      filho dele quer muito ver ele.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flip-card column">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="../Images/avatar_woman.png" alt="Avatar" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                  <h1>Karlakiel da Fonseca</h1> <br>
+                  <div style="text-align: left">
+                    <strong>Contato: </strong> Iracele Delgado Filipim <br>
+                    <strong>Email: </strong> iraceledelgado@ig.com.br <br>
+                    <strong>Cidade-UF: </strong> São Paulo - SP <br>
+                    <strong>Telefone: </strong> (11) 2722-6888 <br><br>
+                    <strong>Mensagem: </strong>
+                    <p class="w3-justify">Estou a procura de um senhor chamado Karlakiel da Fonseca, pois há 15 dias
+                      atrás foi visto na Barra Funda. Infelizmente não temos nenhuma foto dele pois ele levou todas
+                      antes de sair de casa. Se encontrarem alguém com esse nome, por favor, entre em contato pois já o
+                      filho dele quer muito ver ele.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flip-card column">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="../Images/avatar_woman.png" alt="Avatar" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                  <h1>Karlakiel da Fonseca</h1> <br>
+                  <div style="text-align: left">
+                    <strong>Contato: </strong> Iracele Delgado Filipim <br>
+                    <strong>Email: </strong> iraceledelgado@ig.com.br <br>
+                    <strong>Cidade-UF: </strong> São Paulo - SP <br>
+                    <strong>Telefone: </strong> (11) 2722-6888 <br><br>
+                    <strong>Mensagem: </strong>
+                    <p class="w3-justify">Estou a procura de um senhor chamado Karlakiel da Fonseca, pois há 15 dias
+                      atrás foi visto na Barra Funda. Infelizmente não temos nenhuma foto dele pois ele levou todas
+                      antes de sair de casa. Se encontrarem alguém com esse nome, por favor, entre em contato pois já o
+                      filho dele quer muito ver ele.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        function dd() {
-            var x = document.getElementById("Drop");
-            if (x.className.indexOf("w3-show") == -1) {  
-                x.className += " w3-show";
-            } else { 
-                x.className = x.className.replace(" w3-show", "");
-            }
-        }
-    </script>
-    </body>
+  <!-- Script -->
+  <script>
+    function myFunction() {
+      var x = document.getElementById("demo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+
+    function dd() {
+      var x = document.getElementById("Drop");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+  </script>
+</body>
+
 </html>
