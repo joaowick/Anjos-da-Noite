@@ -383,23 +383,7 @@ img.hover-shadow {
     right: 30px;
     border: medium solid white;
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
-}
-
-
-/* Add arrows to the right container (pointing left) */
-
-.right::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    left: 30px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    border-color: transparent  #2196F3 transparent #2196F3;
 }
 
 
@@ -563,7 +547,7 @@ img.hover-shadow {
     right: 30px;
     border: medium solid white;
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
+    border-color: transparent  #2196F3 transparent #2196F3;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -577,7 +561,7 @@ img.hover-shadow {
     left: 30px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    border-color: transparent  #2196F3 transparent #2196F3;
 }
 
 /* Fix the circle for containers on the right side */
