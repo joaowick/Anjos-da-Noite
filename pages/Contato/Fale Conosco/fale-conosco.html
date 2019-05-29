@@ -36,36 +36,35 @@
 
 <body>
     <div class="w3-top">
-        <div class="w3-bar w3-white w3-padding-large w3-large"
-            style="display: flex; align-items: center; text-transform: uppercase">
-            <a href="../pages/index.html" class="w3-bar-item w3-button w3-hover-white"><img
-                    src="../Images/Geral/LOGO.jpg" style="width:200px"></a>
+        <div class="w3-bar w3-white w3-padding-large w3-large" style="display: flex; align-items: center; text-transform: uppercase">
+            <a href="../../index.html" class="w3-bar-item w3-button w3-hover-white"><img src="../../../Images/Geral/LOGO.jpg"
+                    style="width:200px"></a>
             <div style="margin-left: auto">
-                <a href="../pages/index.html"
+                <a href="../../index.html"
                     class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">Inicio</a>
                 <!-- Desktop Dropdown -->
                 <div class="w3-dropdown-hover w3-mobile w3-hide-small" style="text-transform: uppercase">
-                    <button class="w3-button w3-hover-white w3-hover-text-red w3-text-red">COMO AJUDAR <i
+                    <button class="w3-button w3-hover-white w3-hover-text-red">COMO AJUDAR <i
                             class="fa fa-caret-down"></i></button>
                     <div class="w3-dropdown-content w3-bar-block w3-white">
-                        <a href="../pages/voluntarios.html"
+                        <a href="../../Como Ajudar/voluntarios.html"
                             class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Seja um
                             voluntário</a>
-                        <a href="../pages/doacao.html"
+                        <a href="../../Como Ajudar/doacao.html"
                             class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Faça uma doação</a>
                     </div>
                 </div>
-                <a href="../pages/desaparecidos.html"
+                <a href="../../desaparecidos.html"
                     class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">desaparecidos</a>
-                <a href="../pages/galeria.html"
+                <a href="../../galeria.html"
                     class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">galeria</a>
                 <div class="w3-dropdown-hover w3-mobile w3-hide-small" style="text-transform: uppercase">
                     <button class="w3-button w3-hover-white w3-hover-text-red">CONTATO <i
                             class="fa fa-caret-down"></i></button>
                     <div class="w3-dropdown-content w3-bar-block w3-white">
-                        <a href="../pages/contato.html"
+                        <a href="../../Contato/Fale Conosco/fale-conosco.html"
                             class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Fale Conosco</a>
-                        <a href="../pages/albergue.html"
+                        <a href="../../Contato/Albergue/albergue.html"
                             class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Albergue</a>
                     </div>
                 </div>
@@ -75,19 +74,32 @@
         </div>
     </div>
 
-    <h1 class="w3-center" style="text-transform: uppercase; margin-top: 120px;">faça uma doação</h1>
-
-    <!-- Footer -->
-    <footer class="w3-center w3-blue w3-padding-64  w3-hover-white">
-        <a href="../pages/doacao.html" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To
-            the top</a>
-        <div class="w3-xlarge w3-section">
-            <a href="https://www.facebook.com/onganjosdanoite/"><i
-                    class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <div class="w3-container w3-content w3-padding-64 w3-display-middle w3-mobile" style="max-width:800px" id="contact">
+        <h2 class="w3-wide w3-center w3-mobile">CONTATO</h2>
+        <div class="w3-row w3-padding-32">
+            <div class="w3-col m10 w3-large w3-margin-bottom">
+                <i class="fa fa-map-marker" style="width:30px"></i> Rua José Teixeira da Silva, 15 Parque das
+                Paineiras<br>
+                CEP: 03694-140 - São Paulo - SP<br>
+                <i class="fa fa-phone" style="width:30px"></i> 11 98160-8407 / 11 2280-4587<br>
+                <i class="fa fa-envelope" style="width:30px; height: 30px;"> </i> anjos@anjosdanoite.org.br<br>
+            </div>
+            <div class="w3-col m6">
+                <form action="/action_page.php" target="_blank">
+                    <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="Nome" required name="Name">
+                        </div>
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                        </div>
+                    </div>
+                    <input class="w3-input w3-border" type="text" placeholder="Messagem" required name="Message">
+                    <button class="w3-button w3-black w3-section w3-right" type="submit">Enviar</button>
+                </form>
+            </div>
         </div>
-        <p>Powered by <a href="#" title="W3.CSS" target="_blank" class="w3-hover-text-green">Uninove - Design
-                Gráfico</a></p>
-    </footer>
+    </div>
 
     <!-- Script -->
     <script>

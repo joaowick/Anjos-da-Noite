@@ -1,4 +1,4 @@
-@import url('../../CSS/config-grid.css');
+@import url('../Albergue/config-grid.css');
 
 .grid-container {
     display: grid;

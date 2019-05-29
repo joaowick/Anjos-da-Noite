@@ -1,7 +1,6 @@
 cx {
     /* padding: 1em; */
     color: white;
-    text-align: center;
     text-shadow: 1px 1px 1px #000;
 }
 
@@ -10,14 +9,17 @@ cx {
     grid-column: 1/ span 4;
     display: flex;
     align-items: center;
+    font-size: x-large;
 }
 
 .cx-2 {
     background-color: #EBD339;
+    text-align: center;
 }
 
 .cx-3 {
     background-color: #C29F2A;
+    text-align: center;
 }
 
 .cx-4 {
