@@ -1,0 +1,9 @@
+@import url('../../CSS/config-grid.css');
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 50vh;
+}

@@ -1,0 +1,49 @@
+cx {
+    /* padding: 1em; */
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.cx-1 {
+    background-color: #FAE862;
+    grid-column: 1/ span 4;
+    display: flex;
+    align-items: center;
+}
+
+.cx-2 {
+    background-color: #EBD339;
+}
+
+.cx-3 {
+    background-color: #C29F2A;
+}
+
+.cx-4 {
+    background-color: #8EE14C;
+}
+
+.cx-5 {
+    background-color: #78D239;
+}
+
+.cx-6 {
+    background-color: #529925;
+}
+
+.cx-7 {
+    background-color: #76A0CD;
+}
+
+.cx-8 {
+    background-color: #3A66A1;
+}
+
+.cx-9 {
+    background-color: #264B84;
+}
+
+.cx-10 {
+    background-color: red;
+}
