@@ -579,3 +579,7 @@ img.hover-shadow {
     grid-row: 1;
     background-color: #008CBA;
 }
+.newspaper {  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+}
