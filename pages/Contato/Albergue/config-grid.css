@@ -5,7 +5,7 @@ cx {
 }
 
 .cx-1 {
-    background-color: #FAE862;
+    /* background-color: #FAE862; */
     grid-column: 1/ span 4;
     display: flex;
     align-items: center;
@@ -13,39 +13,46 @@ cx {
 }
 
 .cx-2 {
-    background-color: #EBD339;
+    /* background-color: #EBD339; */
     text-align: center;
 }
 
 .cx-3 {
-    background-color: #C29F2A;
+    /* background-color: #C29F2A; */
     text-align: center;
 }
 
 .cx-4 {
-    background-color: #8EE14C;
+    /* background-color: #8EE14C; */
+    text-align: center;
 }
 
 .cx-5 {
-    background-color: #78D239;
+    /* background-color: #78D239; */
+    text-align: center;
 }
 
 .cx-6 {
     background-color: #529925;
+    text-align: center;
 }
 
 .cx-7 {
     background-color: #76A0CD;
+    text-align: center;
 }
 
 .cx-8 {
     background-color: #3A66A1;
+    text-align: center;
 }
 
 .cx-9 {
     background-color: #264B84;
+    text-align: center;
 }
 
 .cx-10 {
     background-color: red;
+    text-align: center;
 }

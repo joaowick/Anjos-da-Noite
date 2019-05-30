@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../../CSS/meuestilo.css">
-    <link rel="stylesheet" href="../../CSS/w3.css">
+    <link rel="stylesheet" href="../CSS/meuestilo.css">
+    <link rel="stylesheet" href="../CSS/w3.css">
     <link rel="stylesheet" href="../Albergue/albergue.css">
 </head>
 <style>
@@ -63,17 +63,29 @@
     <section>
         <div class="w3-container" style="margin-top: 120px;">
             <h1 class="w3-center">Albergue</h1>
-            <div class="w3-bar w3-black">
-                <button class="w3-bar-item w3-button" onclick="openCity('London')">London</button>
-                <button class="w3-bar-item w3-button" onclick="openCity('Paris')">Paris</button>
-                <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">Tokyo</button>
+            <div class="w3-bar w3-blue w3-center">
+                <button class="w3-bar-item w3-button botaoPanel"
+                    onclick="openBairro('Centro-Oeste'), showPanel(0, '#red')" style="text-transform: uppercase">cas
+                    centro oeste</button>
+                <button class="w3-bar-item w3-button botaoPanel" onclick="openBairro('Sudeste'), showPanel(1, '#red')"
+                    style="text-transform: uppercase">cas
+                    sudeste</button>
+                <button class="w3-bar-item w3-button botaoPanel" onclick="openBairro('Sul'), showPanel(2, '#red')"
+                    style="text-transform: uppercase">cas
+                    sul</button>
+                <button class="w3-bar-item w3-button botaoPanel" onclick="openBairro('Leste'), showPanel(3, '#red')"
+                    style="text-transform: uppercase">cas
+                    leste</button>
+                <button class="w3-bar-item w3-button botaoPanel" onclick="openBairro('Norte'), showPanel(4, '#red')"
+                    style="text-transform: uppercase">cas
+                    norte</button>
             </div>
 
-            <div id="London" class="w3-container city">
+            <div id="Centro-Oeste" class="w3-container bairro tabPanel">
                 <div class="w3-container">
                     <div class="grid-container">
                         <div class="cx cx-1">
-                            Normal
+                            CENTROS DE ACOLHIDA I 16 horas - Centro-Oeste
                         </div>
                         <div class="cx cx-2">
                             <strong style="text-transform: uppercase;">centro de acolhida barra funda</strong>
@@ -85,59 +97,456 @@
                                 Bela Vista - 3242-7601<br>
                                 institutolygiajardim@terra.com.br</p>
                         </div>
-                        <div class="cx cx-4">Caixa 4</div>
-                        <div class="cx cx-5">Caixa 5</div>
-                        <div class="cx cx-6">Caixa 6</div>
-                        <div class="cx cx-7">Caixa 7</div>
-                        <div class="cx cx-8">Caixa 8</div>
-                        <div class="cx cx-9">Caixa 9</div>
-                        <div class="cx cx-10">Caixa 10</div>
+                        <div class="cx cx-4">
+                            <strong>ALBERGUE ESPAÇO LUZ</strong>
+                            <p>Praça Princesa Isabel, 75/77<br>
+                                Santa Cecília – 3221-2835<br>
+                                espaçoluz@superig.com.br
+                            </p>
+                        </div>
+                        <div class="cx cx-5">
+                            <strong>NOVA VIDA</strong>
+                            <p>Rua Francisca Miquelina, 343<br>
+                                República – 3106-2036 / 3106-2041<br>
+                                novavida_nv@hotmail.com
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="grid-container">
+                        <div class="cx cx-1">
+                            CENTROS DE ACOLHIDA II 24 horas
+                        </div>
+                        <div class="cx cx-2">
+                            <strong style="text-transform: uppercase;">centro de acolhida barra funda</strong>
+                            <p style="text-transform: capitalize;">rua norma pieruccini gianotti, 77</p>
+                        </div>
+                        <div class="cx cx-3">
+                            <strong style="text-transform: uppercase;">lygia jardim</strong>
+                            <p>Rua São Domingos, 39/51<br>
+                                Bela Vista - 3242-7601<br>
+                                institutolygiajardim@terra.com.br</p>
+                        </div>
+                        <div class="cx cx-4">
+                            <strong>ALBERGUE ESPAÇO LUZ</strong>
+                            <p>Praça Princesa Isabel, 75/77<br>
+                                Santa Cecília – 3221-2835<br>
+                                espaçoluz@superig.com.br
+                            </p>
+                        </div>
+                        <div class="cx cx-5">
+                            <strong>NOVA VIDA</strong>
+                            <p>Rua Francisca Miquelina, 343<br>
+                                República – 3106-2036 / 3106-2041<br>
+                                novavida_nv@hotmail.com
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="grid-container">
+                        <div class="cx cx-1">
+                            CENTROS DE ACOLHIDA ESPECIAL
+                        </div>
+                        <div class="cx cx-2">
+                            <strong style="text-transform: uppercase;">centro de acolhida barra funda</strong>
+                            <p style="text-transform: capitalize;">rua norma pieruccini gianotti, 77</p>
+                        </div>
+                        <div class="cx cx-3">
+                            <strong style="text-transform: uppercase;">lygia jardim</strong>
+                            <p>Rua São Domingos, 39/51<br>
+                                Bela Vista - 3242-7601<br>
+                                institutolygiajardim@terra.com.br</p>
+                        </div>
+                        <div class="cx cx-4">
+                            <strong>ALBERGUE ESPAÇO LUZ</strong>
+                            <p>Praça Princesa Isabel, 75/77<br>
+                                Santa Cecília – 3221-2835<br>
+                                espaçoluz@superig.com.br
+                            </p>
+                        </div>
+                        <div class="cx cx-5">
+                            <strong>NOVA VIDA</strong>
+                            <p>Rua Francisca Miquelina, 343<br>
+                                República – 3106-2036 / 3106-2041<br>
+                                novavida_nv@hotmail.com
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div id="Paris" class="w3-container city" style="display:none">
+            <div id="Sudeste" class="w3-container bairro tabPanel" style="display:none">
                 <div class="w3-container">
                     <div class="grid-container">
-                        <div class="cx cx-1">Paris</div>
-                        <div class="cx cx-2">Caixa 2</div>
-                        <div class="cx cx-3">Caixa 3</div>
-                        <div class="cx cx-4">Caixa 4</div>
-                        <div class="cx cx-5">Caixa 5</div>
-                        <div class="cx cx-6">Caixa 6</div>
-                        <div class="cx cx-7">Caixa 7</div>
-                        <div class="cx cx-8">Caixa 8</div>
-                        <div class="cx cx-9">Caixa 9</div>
-                        <div class="cx cx-10">Caixa 10</div>
+                        <div class="cx cx-1">
+                            CENTROS DE ACOLHIDA I 16 horas - Sudeste
+                        </div>
+                        <div class="cx cx-2">
+                            <strong style="text-transform: uppercase;">centro de acolhida barra funda</strong>
+                            <p style="text-transform: capitalize;">rua norma pieruccini gianotti, 77</p>
+                        </div>
+                        <div class="cx cx-3">
+                            <strong style="text-transform: uppercase;">lygia jardim</strong>
+                            <p>Rua São Domingos, 39/51<br>
+                                Bela Vista - 3242-7601<br>
+                                institutolygiajardim@terra.com.br</p>
+                        </div>
+                        <div class="cx cx-4">
+                            <strong>ALBERGUE ESPAÇO LUZ</strong>
+                            <p>Praça Princesa Isabel, 75/77<br>
+                                Santa Cecília – 3221-2835<br>
+                                espaçoluz@superig.com.br
+                            </p>
+                        </div>
+                        <div class="cx cx-5">
+                            <strong>NOVA VIDA</strong>
+                            <p>Rua Francisca Miquelina, 343<br>
+                                República – 3106-2036 / 3106-2041<br>
+                                novavida_nv@hotmail.com
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="grid-container">
+                        <div class="cx cx-1">
+                            CENTROS DE ACOLHIDA II 24 horas
+                        </div>
+                        <div class="cx cx-2">
+                            <strong style="text-transform: uppercase;">centro de acolhida barra funda</strong>
+                            <p style="text-transform: capitalize;">rua norma pieruccini gianotti, 77</p>
+                        </div>
+                        <div class="cx cx-3">
+                            <strong style="text-transform: uppercase;">lygia jardim</strong>
+                            <p>Rua São Domingos, 39/51<br>
+                                Bela Vista - 3242-7601<br>
+                                institutolygiajardim@terra.com.br</p>
+                        </div>
+                        <div class="cx cx-4">
+                            <strong>ALBERGUE ESPAÇO LUZ</strong>
+                            <p>Praça Princesa Isabel, 75/77<br>
+                                Santa Cecília – 3221-2835<br>
+                                espaçoluz@superig.com.br
+                            </p>
+                        </div>
+                        <div class="cx cx-5">
+                            <strong>NOVA VIDA</strong>
+                            <p>Rua Francisca Miquelina, 343<br>
+                                República – 3106-2036 / 3106-2041<br>
+                                novavida_nv@hotmail.com
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="grid-container">
+                        <div class="cx cx-1">
+                            CENTROS DE ACOLHIDA ESPECIAL
+                        </div>
+                        <div class="cx cx-2">
+                            <strong style="text-transform: uppercase;">centro de acolhida barra funda</strong>
+                            <p style="text-transform: capitalize;">rua norma pieruccini gianotti, 77</p>
+                        </div>
+                        <div class="cx cx-3">
+                            <strong style="text-transform: uppercase;">lygia jardim</strong>
+                            <p>Rua São Domingos, 39/51<br>
+                                Bela Vista - 3242-7601<br>
+                                institutolygiajardim@terra.com.br</p>
+                        </div>
+                        <div class="cx cx-4">
+                            <strong>ALBERGUE ESPAÇO LUZ</strong>
+                            <p>Praça Princesa Isabel, 75/77<br>
+                                Santa Cecília – 3221-2835<br>
+                                espaçoluz@superig.com.br
+                            </p>
+                        </div>
+                        <div class="cx cx-5">
+                            <strong>NOVA VIDA</strong>
+                            <p>Rua Francisca Miquelina, 343<br>
+                                República – 3106-2036 / 3106-2041<br>
+                                novavida_nv@hotmail.com
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div id="Tokyo" class="w3-container city" style="display:none">
+            <div id="Sul" class="w3-container bairro tabPanel" style="display:none">
                 <div class="w3-container">
                     <div class="grid-container">
-                        <div class="cx cx-1">Tokyo</div>
-                        <div class="cx cx-2">Caixa 2</div>
-                        <div class="cx cx-3">Caixa 3</div>
-                        <div class="cx cx-4">Caixa 4</div>
-                        <div class="cx cx-5">Caixa 5</div>
-                        <div class="cx cx-6">Caixa 6</div>
-                        <div class="cx cx-7">Caixa 7</div>
-                        <div class="cx cx-8">Caixa 8</div>
-                        <div class="cx cx-9">Caixa 9</div>
-                        <div class="cx cx-10">Caixa 10</div>
+                        <div class="cx cx-1">
+                            CENTROS DE ACOLHIDA I 16 horas - Sul
+                        </div>
+                        <div class="cx cx-2">
+                            <strong style="text-transform: uppercase;">centro de acolhida barra funda</strong>
+                            <p style="text-transform: capitalize;">rua norma pieruccini gianotti, 77</p>
+                        </div>
+                        <div class="cx cx-3">
+                            <strong style="text-transform: uppercase;">lygia jardim</strong>
+                            <p>Rua São Domingos, 39/51<br>
+                                Bela Vista - 3242-7601<br>
+                                institutolygiajardim@terra.com.br</p>
+                        </div>
+                        <div class="cx cx-4">
+                            <strong>ALBERGUE ESPAÇO LUZ</strong>
+                            <p>Praça Princesa Isabel, 75/77<br>
+                                Santa Cecília – 3221-2835<br>
+                                espaçoluz@superig.com.br
+                            </p>
+                        </div>
+                        <div class="cx cx-5">
+                            <strong>NOVA VIDA</strong>
+                            <p>Rua Francisca Miquelina, 343<br>
+                                República – 3106-2036 / 3106-2041<br>
+                                novavida_nv@hotmail.com
+                            </p>
+                        </div>
                     </div>
+
                     <div class="grid-container">
-                        <div class="cx cx-1">Tokyo</div>
-                        <div class="cx cx-2">Caixa 2</div>
-                        <div class="cx cx-3">Caixa 3</div>
-                        <div class="cx cx-4">Caixa 4</div>
-                        <div class="cx cx-5">Caixa 5</div>
-                        <div class="cx cx-6">Caixa 6</div>
-                        <div class="cx cx-7">Caixa 7</div>
-                        <div class="cx cx-8">Caixa 8</div>
-                        <div class="cx cx-9">Caixa 9</div>
-                        <div class="cx cx-10">Caixa 10</div>
+                        <div class="cx cx-1">
+                            CENTROS DE ACOLHIDA II 24 horas
+                        </div>
+                        <div class="cx cx-2">
+                            <strong style="text-transform: uppercase;">centro de acolhida barra funda</strong>
+                            <p style="text-transform: capitalize;">rua norma pieruccini gianotti, 77</p>
+                        </div>
+                        <div class="cx cx-3">
+                            <strong style="text-transform: uppercase;">lygia jardim</strong>
+                            <p>Rua São Domingos, 39/51<br>
+                                Bela Vista - 3242-7601<br>
+                                institutolygiajardim@terra.com.br</p>
+                        </div>
+                        <div class="cx cx-4">
+                            <strong>ALBERGUE ESPAÇO LUZ</strong>
+                            <p>Praça Princesa Isabel, 75/77<br>
+                                Santa Cecília – 3221-2835<br>
+                                espaçoluz@superig.com.br
+                            </p>
+                        </div>
+                        <div class="cx cx-5">
+                            <strong>NOVA VIDA</strong>
+                            <p>Rua Francisca Miquelina, 343<br>
+                                República – 3106-2036 / 3106-2041<br>
+                                novavida_nv@hotmail.com
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="grid-container">
+                        <div class="cx cx-1">
+                            CENTROS DE ACOLHIDA ESPECIAL
+                        </div>
+                        <div class="cx cx-2">
+                            <strong style="text-transform: uppercase;">centro de acolhida barra funda</strong>
+                            <p style="text-transform: capitalize;">rua norma pieruccini gianotti, 77</p>
+                        </div>
+                        <div class="cx cx-3">
+                            <strong style="text-transform: uppercase;">lygia jardim</strong>
+                            <p>Rua São Domingos, 39/51<br>
+                                Bela Vista - 3242-7601<br>
+                                institutolygiajardim@terra.com.br</p>
+                        </div>
+                        <div class="cx cx-4">
+                            <strong>ALBERGUE ESPAÇO LUZ</strong>
+                            <p>Praça Princesa Isabel, 75/77<br>
+                                Santa Cecília – 3221-2835<br>
+                                espaçoluz@superig.com.br
+                            </p>
+                        </div>
+                        <div class="cx cx-5">
+                            <strong>NOVA VIDA</strong>
+                            <p>Rua Francisca Miquelina, 343<br>
+                                República – 3106-2036 / 3106-2041<br>
+                                novavida_nv@hotmail.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Leste" class="w3-container bairro tabPanel" style="display:none">
+                <div class="w3-container">
+                    <div class="grid-container">
+                        <div class="cx cx-1">
+                            CENTROS DE ACOLHIDA I 16 horas - Leste
+                        </div>
+                        <div class="cx cx-2">
+                            <strong style="text-transform: uppercase;">centro de acolhida barra funda</strong>
+                            <p style="text-transform: capitalize;">rua norma pieruccini gianotti, 77</p>
+                        </div>
+                        <div class="cx cx-3">
+                            <strong style="text-transform: uppercase;">lygia jardim</strong>
+                            <p>Rua São Domingos, 39/51<br>
+                                Bela Vista - 3242-7601<br>
+                                institutolygiajardim@terra.com.br</p>
+                        </div>
+                        <div class="cx cx-4">
+                            <strong>ALBERGUE ESPAÇO LUZ</strong>
+                            <p>Praça Princesa Isabel, 75/77<br>
+                                Santa Cecília – 3221-2835<br>
+                                espaçoluz@superig.com.br
+                            </p>
+                        </div>
+                        <div class="cx cx-5">
+                            <strong>NOVA VIDA</strong>
+                            <p>Rua Francisca Miquelina, 343<br>
+                                República – 3106-2036 / 3106-2041<br>
+                                novavida_nv@hotmail.com
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="grid-container">
+                        <div class="cx cx-1">
+                            CENTROS DE ACOLHIDA II 24 horas
+                        </div>
+                        <div class="cx cx-2">
+                            <strong style="text-transform: uppercase;">centro de acolhida barra funda</strong>
+                            <p style="text-transform: capitalize;">rua norma pieruccini gianotti, 77</p>
+                        </div>
+                        <div class="cx cx-3">
+                            <strong style="text-transform: uppercase;">lygia jardim</strong>
+                            <p>Rua São Domingos, 39/51<br>
+                                Bela Vista - 3242-7601<br>
+                                institutolygiajardim@terra.com.br</p>
+                        </div>
+                        <div class="cx cx-4">
+                            <strong>ALBERGUE ESPAÇO LUZ</strong>
+                            <p>Praça Princesa Isabel, 75/77<br>
+                                Santa Cecília – 3221-2835<br>
+                                espaçoluz@superig.com.br
+                            </p>
+                        </div>
+                        <div class="cx cx-5">
+                            <strong>NOVA VIDA</strong>
+                            <p>Rua Francisca Miquelina, 343<br>
+                                República – 3106-2036 / 3106-2041<br>
+                                novavida_nv@hotmail.com
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="grid-container">
+                        <div class="cx cx-1">
+                            CENTROS DE ACOLHIDA ESPECIAL
+                        </div>
+                        <div class="cx cx-2">
+                            <strong style="text-transform: uppercase;">centro de acolhida barra funda</strong>
+                            <p style="text-transform: capitalize;">rua norma pieruccini gianotti, 77</p>
+                        </div>
+                        <div class="cx cx-3">
+                            <strong style="text-transform: uppercase;">lygia jardim</strong>
+                            <p>Rua São Domingos, 39/51<br>
+                                Bela Vista - 3242-7601<br>
+                                institutolygiajardim@terra.com.br</p>
+                        </div>
+                        <div class="cx cx-4">
+                            <strong>ALBERGUE ESPAÇO LUZ</strong>
+                            <p>Praça Princesa Isabel, 75/77<br>
+                                Santa Cecília – 3221-2835<br>
+                                espaçoluz@superig.com.br
+                            </p>
+                        </div>
+                        <div class="cx cx-5">
+                            <strong>NOVA VIDA</strong>
+                            <p>Rua Francisca Miquelina, 343<br>
+                                República – 3106-2036 / 3106-2041<br>
+                                novavida_nv@hotmail.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Norte" class="w3-container bairro tabPanel" style="display:none">
+                <div class="w3-container">
+                    <div class="grid-container">
+                        <div class="cx cx-1">
+                            CENTROS DE ACOLHIDA I 16 horas - Norte
+                        </div>
+                        <div class="cx cx-2">
+                            <strong style="text-transform: uppercase;">centro de acolhida barra funda</strong>
+                            <p style="text-transform: capitalize;">rua norma pieruccini gianotti, 77</p>
+                        </div>
+                        <div class="cx cx-3">
+                            <strong style="text-transform: uppercase;">lygia jardim</strong>
+                            <p>Rua São Domingos, 39/51<br>
+                                Bela Vista - 3242-7601<br>
+                                institutolygiajardim@terra.com.br</p>
+                        </div>
+                        <div class="cx cx-4">
+                            <strong>ALBERGUE ESPAÇO LUZ</strong>
+                            <p>Praça Princesa Isabel, 75/77<br>
+                                Santa Cecília – 3221-2835<br>
+                                espaçoluz@superig.com.br
+                            </p>
+                        </div>
+                        <div class="cx cx-5">
+                            <strong>NOVA VIDA</strong>
+                            <p>Rua Francisca Miquelina, 343<br>
+                                República – 3106-2036 / 3106-2041<br>
+                                novavida_nv@hotmail.com
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="grid-container">
+                        <div class="cx cx-1">
+                            CENTROS DE ACOLHIDA II 24 horas
+                        </div>
+                        <div class="cx cx-2">
+                            <strong style="text-transform: uppercase;">centro de acolhida barra funda</strong>
+                            <p style="text-transform: capitalize;">rua norma pieruccini gianotti, 77</p>
+                        </div>
+                        <div class="cx cx-3">
+                            <strong style="text-transform: uppercase;">lygia jardim</strong>
+                            <p>Rua São Domingos, 39/51<br>
+                                Bela Vista - 3242-7601<br>
+                                institutolygiajardim@terra.com.br</p>
+                        </div>
+                        <div class="cx cx-4">
+                            <strong>ALBERGUE ESPAÇO LUZ</strong>
+                            <p>Praça Princesa Isabel, 75/77<br>
+                                Santa Cecília – 3221-2835<br>
+                                espaçoluz@superig.com.br
+                            </p>
+                        </div>
+                        <div class="cx cx-5">
+                            <strong>NOVA VIDA</strong>
+                            <p>Rua Francisca Miquelina, 343<br>
+                                República – 3106-2036 / 3106-2041<br>
+                                novavida_nv@hotmail.com
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="grid-container">
+                        <div class="cx cx-1">
+                            CENTROS DE ACOLHIDA ESPECIAL
+                        </div>
+                        <div class="cx cx-2">
+                            <strong style="text-transform: uppercase;">centro de acolhida barra funda</strong>
+                            <p style="text-transform: capitalize;">rua norma pieruccini gianotti, 77</p>
+                        </div>
+                        <div class="cx cx-3">
+                            <strong style="text-transform: uppercase;">lygia jardim</strong>
+                            <p>Rua São Domingos, 39/51<br>
+                                Bela Vista - 3242-7601<br>
+                                institutolygiajardim@terra.com.br</p>
+                        </div>
+                        <div class="cx cx-4">
+                            <strong>ALBERGUE ESPAÇO LUZ</strong>
+                            <p>Praça Princesa Isabel, 75/77<br>
+                                Santa Cecília – 3221-2835<br>
+                                espaçoluz@superig.com.br
+                            </p>
+                        </div>
+                        <div class="cx cx-5">
+                            <strong>NOVA VIDA</strong>
+                            <p>Rua Francisca Miquelina, 343<br>
+                                República – 3106-2036 / 3106-2041<br>
+                                novavida_nv@hotmail.com
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -154,21 +563,11 @@
             <a href="https://www.facebook.com/onganjosdanoite/"><i
                     class="fa fa-facebook-official w3-hover-opacity"></i></a>
         </div>
-        <p>Powered by <a href="#" title="W3.CSS" target="_blank" class="w3-hover-text-green">Uninove - Design
-                Gráfico</a></p>
+        Projeto por GJNRW
     </footer>
 
     <!-- Script -->
-    <script>
-        function openCity(cityName) {
-            var i;
-            var x = document.getElementsByClassName("city");
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            document.getElementById(cityName).style.display = "block";
-        }
-    </script>
+    <script src="albergue.js"></script>
 </body>
 
 </html>

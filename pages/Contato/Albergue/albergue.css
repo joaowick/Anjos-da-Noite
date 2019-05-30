@@ -2,8 +2,9 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(4, 300px);
     margin-top: 20px;
     margin-bottom: 20px;
-    height: 50vh;
+    margin-left: 175px;
+    height: 30vh;
 }
