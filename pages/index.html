@@ -36,9 +36,9 @@
                             voluntário</a>
                         <a href="../pages/Como Ajudar/doacao/doacao.html"
                             class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Faça uma
-                            doação</a><a href="../pages/Como Ajudar/Albergue/albergue.html"
+                            doação</a>
+                        <a href="../pages/Como Ajudar/Albergue/albergue.html"
                             class="w3-bar-item w3-button w3-mobile w3-hover-white w3-hover-text-red">Albergue</a>
-
                     </div>
                 </div>
                 <a href="../pages/desaparecidos.html"
@@ -50,6 +50,21 @@
                 <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
                     onclick="myFunction()">&#9776;</a>
             </div>
+        </div>
+    </div>
+
+    <div class="home">
+        <div id="demo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium"
+            style="margin-top: 120px;">
+            <a href="../pages/index.html" class="w3-bar-item w3-button">Inicio</a>
+            <a href="../pages/Como Ajudar/voluntarios.html" class="w3-bar-item w3-button">Seja um
+                voluntário</a>
+            <a href="../pages/Como Ajudar/doacao/doacao.html" class="w3-bar-item w3-button">Faça uma
+                doação</a>
+            <a href="../pages/Como Ajudar/Albergue/albergue.html" class="w3-bar-item w3-button">Albergue</a>
+            <a href="../pages/desaparecidos.html" class="w3-bar-item w3-button">Desaparecidos</a>
+            <a href="../pages/galeria.html" class="w3-bar-item w3-button">Galeria</a>
+            <a href="../pages/Contato/Fale Conosco/fale-conosco.html" class="w3-bar-item w3-button">Contato</a>
         </div>
     </div>
 
@@ -322,6 +337,15 @@
             if (slideIndex > x.length) { slideIndex = 1 }
             x[slideIndex - 1].style.display = "block";
             setTimeout(carousel, 5000);
+        }
+
+        function myFunction() {
+            var x = document.getElementById("demo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
         }
     </script>
 </body>

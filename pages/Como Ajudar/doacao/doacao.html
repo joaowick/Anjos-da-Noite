@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="w3-top" >
+    <div class="w3-top">
         <div class="w3-bar w3-white w3-padding-large w3-large"
             style="display: flex; align-items: center; text-transform: uppercase">
             <a href="../../index.html" class="w3-bar-item w3-button w3-hover-white"><img
@@ -49,6 +49,19 @@
         </div>
     </div>
 
+    <div class="home">
+        <div id="demo" class="w3-bar-block cormenu w3-hide w3-hide-large w3-hide-medium" style="margin-top: 120px; margin-bottom: -120px !important;">
+            <a href="../../index.html" class="w3-bar-item w3-button">Inicio</a>
+            <a href="../voluntarios.html" class="w3-bar-item w3-button">Seja um
+                voluntário</a>
+            <a href="../doacao/doacao.html" class="w3-bar-item w3-button">Faça uma
+                doação</a>
+            <a href="../Albergue/albergue.html" class="w3-bar-item w3-button">Albergue</a>
+            <a href="../../desaparecidos.html" class="w3-bar-item w3-button">Desaparecidos</a>
+            <a href="../../galeria.html" class="w3-bar-item w3-button">Galeria</a>
+            <a href="../../Contato/Fale Conosco/fale-conosco.html" class="w3-bar-item w3-button">Contato</a>
+        </div>
+    </div>
 
     <!-- Section - Faça uma Doação -->
     <section>
@@ -122,12 +135,12 @@
                             feminino.<br>
                             Além das roupas é extremamente importante a doação de cobertores (casal ou solteiro).
                         </p>
-                            <p>Uma ótima sugestão de compra se encontra no seguinte local:</p>
-                            UNIMINAS – Cobertor Super Caliente – Código 789897149570
-                            <p>Avenida Guilherme Cotching, 85 – Vila Maria – SP<br>Tel: (11) 27970111</p>
-                            As doações podem ser entregues, aos sábados, na nossa sede.
-                            <p>Agradeço em nome do grupo e dos moradores de rua.</p>
-                        
+                        <p>Uma ótima sugestão de compra se encontra no seguinte local:</p>
+                        UNIMINAS – Cobertor Super Caliente – Código 789897149570
+                        <p>Avenida Guilherme Cotching, 85 – Vila Maria – SP<br>Tel: (11) 27970111</p>
+                        As doações podem ser entregues, aos sábados, na nossa sede.
+                        <p>Agradeço em nome do grupo e dos moradores de rua.</p>
+
                     </div>
                 </div>
             </div>
@@ -167,6 +180,17 @@
         </div>
         Projeto por GJNRW
     </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("demo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
 </body>
 
 </html>

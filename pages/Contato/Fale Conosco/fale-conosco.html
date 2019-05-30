@@ -12,28 +12,6 @@
     <link rel="stylesheet" href="../CSS/w3.css">
     <link rel="stylesheet" href="../Fale Conosco/fale-conosco.css">
 </head>
-<style>
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-family: "Lato", sans-serif
-    }
-
-    .w3-bar,
-    h1,
-    button {
-        font-family: "Montserrat", sans-serif
-    }
-
-    .fa-anchor,
-    .fa-coffee {
-        font-size: 200px
-    }
-</style>
 
 <body>
     <div class="w3-top">
@@ -68,6 +46,20 @@
                 <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
                     onclick="myFunction()">&#9776;</a>
             </div>
+        </div>
+    </div>
+
+    <div class="home">
+        <div id="demo" class="w3-bar-block cormenu w3-hide w3-hide-large w3-hide-medium" style="margin-top: 120px; margin-bottom: -120px !important;">
+            <a href="../../index.html" class="w3-bar-item w3-button">Inicio</a>
+            <a href="../../Como Ajudar/voluntarios.html" class="w3-bar-item w3-button">Seja um
+                voluntário</a>
+            <a href="../../Como Ajudar/doacao/doacao.html" class="w3-bar-item w3-button">Faça uma
+                doação</a>
+            <a href="../../Como Ajudar/Albergue/albergue.html" class="w3-bar-item w3-button">Albergue</a>
+            <a href="../../desaparecidos.html" class="w3-bar-item w3-button">Desaparecidos</a>
+            <a href="../../galeria.html" class="w3-bar-item w3-button">Galeria</a>
+            <a href="../../Contato/Fale Conosco/fale-conosco.html" class="w3-bar-item w3-button">Contato</a>
         </div>
     </div>
 
@@ -115,6 +107,17 @@
         </div>
         Projeto por GJNRW
     </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("demo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
 </body>
 
 </html>

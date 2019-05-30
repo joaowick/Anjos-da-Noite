@@ -48,6 +48,20 @@
         </div>
     </div>
 
+    <div class="home">
+        <div id="demo" class="w3-bar-block cormenu w3-hide w3-hide-large w3-hide-medium" style="margin-top: 120px; margin-bottom: -120px !important;">
+            <a href="../pages/index.html" class="w3-bar-item w3-button">Inicio</a>
+            <a href="../pages/Como Ajudar/voluntarios.html" class="w3-bar-item w3-button">Seja um
+                voluntário</a>
+            <a href="../pages/Como Ajudar/doacao/doacao.html" class="w3-bar-item w3-button">Faça uma
+                doação</a>
+            <a href="../pages/Como Ajudar/Albergue/albergue.html" class="w3-bar-item w3-button">Albergue</a>
+            <a href="../pages/desaparecidos.html" class="w3-bar-item w3-button">Desaparecidos</a>
+            <a href="../pages/galeria.html" class="w3-bar-item w3-button">Galeria</a>
+            <a href="../pages/Contato/Fale Conosco/fale-conosco.html" class="w3-bar-item w3-button">Contato</a>
+        </div>
+    </div>
+
     <h1 class="w3-center" style="margin-top: 120px;">GALERIA</h1>
 
     <!-- Images used to open the lightbox -->
@@ -417,7 +431,7 @@
         function currentSlide(n) {
             showSlides(slideIndex = n);
         }
-        
+
         function showSlides(n) {
             var i;
             var slides = document.getElementsByClassName("mySlides");
@@ -432,6 +446,15 @@
             }
             slides[slideIndex - 1].style.display = "block";
             dots[slideIndex - 1].className += " active";
+        }
+
+        function myFunction() {
+            var x = document.getElementById("demo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
         }
     </script>
 </body>

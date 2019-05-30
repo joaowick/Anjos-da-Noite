@@ -11,35 +11,13 @@
     <link rel="stylesheet" href="../CSS/meuestilo.css">
     <link rel="stylesheet" href="../CSS/w3.css">
 </head>
-<style>
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-family: "Lato", sans-serif
-    }
-
-    .w3-bar,
-    h1,
-    button {
-        font-family: "Montserrat", sans-serif
-    }
-
-    .fa-anchor,
-    .fa-coffee {
-        font-size: 200px
-    }
-</style>
 
 <body>
     <div class="w3-top">
         <div class="w3-bar w3-white w3-padding-large w3-large"
             style="display: flex; align-items: center; text-transform: uppercase">
-            <a href="../index.html" class="w3-bar-item w3-button w3-hover-white"><img
-                    src="../../Images/Geral/LOGO.jpg" style="width:200px"></a>
+            <a href="../index.html" class="w3-bar-item w3-button w3-hover-white"><img src="../../Images/Geral/LOGO.jpg"
+                    style="width:200px"></a>
             <div style="margin-left: auto">
                 <a href="../index.html"
                     class="w3-bar-item w3-button w3-hide-small w3-hover-text-red w3-hover-white">Inicio</a>
@@ -62,7 +40,7 @@
                     class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">desaparecidos</a>
                 <a href="../galeria.html"
                     class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">galeria</a>
-                    <a href="../Contato/Fale Conosco/fale-conosco.html"
+                <a href="../Contato/Fale Conosco/fale-conosco.html"
                     class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-hover-text-red">contato</a>
                 <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
                     onclick="myFunction()">&#9776;</a>
@@ -70,7 +48,23 @@
         </div>
     </div>
 
-    <h1 class="w3-center" style="text-transform: uppercase; margin-top: 120px;">Voluntários</h1>
+    <h1 class="w3-center" style="text-transform: uppercase; margin-top: 120px">Voluntários</h1>
+
+    <div class="home">
+        <div id="demo" class="w3-bar-block cormenu w3-hide w3-hide-large w3-hide-medium">
+            <a href="../index.html" class="w3-bar-item w3-button">Inicio</a>
+            <a href="../Como Ajudar/voluntarios.html" class="w3-bar-item w3-button">Seja um
+                voluntário</a>
+            <a href="../Como Ajudar/doacao/doacao.html" class="w3-bar-item w3-button">Faça uma
+                doação</a>
+            <a href="../Como Ajudar/Albergue/albergue.html" class="w3-bar-item w3-button">Albergue</a>
+            <a href="../desaparecidos.html" class="w3-bar-item w3-button">Desaparecidos</a>
+            <a href="../galeria.html" class="w3-bar-item w3-button">Galeria</a>
+            <a href="../Contato/Fale Conosco/fale-conosco.html" class="w3-bar-item w3-button">Contato</a>
+        </div>
+    </div>
+
+    
 
     <!-- Section - Como Participar -->
     <section>
@@ -152,7 +146,8 @@
 
     <!-- Footer -->
     <footer class="w3-center w3-padding-64">
-        <a href="../Como Ajudar/voluntarios.html" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To
+        <a href="../Como Ajudar/voluntarios.html" class="w3-button w3-light-grey"><i
+                class="fa fa-arrow-up w3-margin-right"></i>To
             the top</a>
         <div class="w3-xlarge w3-section">
             <a href="https://www.facebook.com/onganjosdanoite/"><i
@@ -160,6 +155,17 @@
         </div>
         Projeto por GJNRW
     </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("demo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
 </body>
 
 </html>
