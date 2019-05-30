@@ -1,208 +1,22 @@
-<div id="myModal" class="modal">
-    <span class="close cursor" onclick="closeModal()">&times;</span>
-    <div class="modal-content">
-        <div class="mySlides">
-            <div class="numbertext">1 / 40</div>
-            <img src="../Images/Galeria/IMG_6126.jpg" style="width:100%">
-        </div>
+<!DOCTYPE html>
+<html>
+<body>
 
-        <div class="mySlides">
-            <div class="numbertext">2 / 40</div>
-            <img src="../Images/Galeria/IMG_6205.jpg" style="width:100%">
-        </div>
+<h1>My First Google Map</h1>
 
-        <div class="mySlides">
-            <div class="numbertext">3 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-122.jpg" style="width:100%">
-        </div>
+<div id="googleMap" style="width:100%;height:400px;"></div>
 
-        <div class="mySlides">
-            <div class="numbertext">4 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-123.jpg" style="width:100%">
-        </div>
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
 
-        <div class="mySlides">
-            <div class="numbertext">5 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-127.jpg" style="width:100%">
-        </div>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 
-        <div class="mySlides">
-            <div class="numbertext">6 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-15.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">7 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-17.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">8 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-19.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">9 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-24.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">10 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-25.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">11 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-26.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">12 / 40</div>
-            <img src="./Images/Galeria/TRABALHO-NOTURNO-27.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">13 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-30.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">14 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-46.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">15 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-49.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">16 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-52.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">17 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-54.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">18 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-59.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">19 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-61.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">20 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-62.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">21 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-64.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">22 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-67.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">23 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-69.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">24 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-70.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">25 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-71.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">26 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-72.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">27 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-75.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">28 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-76.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">29 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-77.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">30 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-78.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">31 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-79.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">32 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-81.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">33 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-82.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">34 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-127.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">35 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-127.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">36 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-127.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">37 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-127.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">38 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-127.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">39 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-127.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides">
-            <div class="numbertext">40 / 40</div>
-            <img src="../Images/Galeria/TRABALHO-NOTURNO-127.jpg" style="width:100%">
-        </div>
-
-        <!-- Next/previous controls -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-</div>
+</body>
+</html>
